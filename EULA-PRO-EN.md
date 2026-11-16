@@ -1,28 +1,28 @@
-# MerQur Pro — End User License Agreement
+# MerQuR+ — End User License Agreement
 
-**Software Name:** MerQur Pro — Integrated Academic Data Analysis and
+**Software Name:** MerQuR+ (formerly MerQur Pro) — Integrated Academic Data Analysis and
 Reporting Platform
-**Version:** MerQur Pro 3.0.0 and later
+**Version:** MerQuR+ 3.7.0 and later (continuing versions 3.0.0–3.6.0 released as MerQur Pro)
 **Copyright:** © 2026 Ömer K. Örücü
 **Work Registration:** Republic of Türkiye, Ministry of Culture and
 Tourism, Registration No: **2026/18517**
-**Effective Date:** The release date of MerQur Pro 3.1.0 (agreement version PRO-1.1.0)
+**Effective Date:** The release date of MerQuR+ 3.7.0 (agreement version PRO-1.2.0)
 **Contact:** info@sekizgenacademy.com
 
 ---
 
 ## IMPORTANT — PLEASE READ CAREFULLY
 
-By installing the MerQur Pro software, entering a license key, or using
+By installing the MerQuR+ software, entering a license key, or using
 the software, you acknowledge that you have read, understood, and agree
 to be bound by all terms of this End User License Agreement
 ("Agreement"). If you do not agree to these terms, you must not install
-or use MerQur Pro.
+or use MerQuR+.
 
-MerQur Pro is a **paid** edition that **requires a license key** and is
+MerQuR+ is a **paid** edition that **requires a license key** and is
 separate from the free edition of MerQur. The free edition of MerQur is
 governed by its own End User License Agreement; this Agreement covers
-MerQur Pro only.
+MerQuR+ only.
 
 ---
 
@@ -31,16 +31,16 @@ MerQur Pro only.
 **a)** **Licensor:** Ömer K. Örücü, faculty member at Süleyman Demirel
 University, Türkiye. He is the sole copyright holder of MerQur under
 work registration no. 2026/18517 issued by the Republic of Türkiye
-Ministry of Culture and Tourism. MerQur Pro is an extended edition of
+Ministry of Culture and Tourism. MerQuR+ is an extended edition of
 this work.
 
 **b)** **Licensee ("User"):** The natural person who has obtained from
-the Licensor a valid MerQur Pro license key issued in his or her name.
+the Licensor a valid MerQuR+ license key issued in his or her name.
 Where licensing is arranged on behalf of an institution, the key is
 issued for the natural person designated by the institution and named
 in the key.
 
-**c)** **Authorized Reseller:** The sale and invoicing of the MerQur Pro
+**c)** **Authorized Reseller:** The sale and invoicing of the MerQuR+
 license and the collection of the fee are carried out by Sekizgen
 Academy, authorized by the Licensor ("Authorized Reseller"). The trade
 name and address of the Authorized Reseller are stated in the license
@@ -52,7 +52,7 @@ copyright ownership or the Licensor's rights under this Agreement.
 
 ## 2. LICENSE KEY AND LICENSE TERM
 
-**a)** **Key requirement:** MerQur Pro runs only with a valid license
+**a)** **Key requirement:** MerQuR+ runs only with a valid license
 key issued by the Licensor. If no license key has been entered, the key
 is invalid, or the license term has expired, the program does not open.
 
@@ -60,7 +60,7 @@ is invalid, or the license term has expired, the program does not open.
 holder's name, email address, and institution are recorded in the key
 and are shown in the program's About window. The license holder's name and
 institution (but not the email address) also appear in the attribution
-of reports produced with MerQur Pro. The license key may not be
+of reports produced with MerQuR+. The license key may not be
 transferred, shared, or sold.
 
 **c)** **Term:** The license term is **1 (one) year** from the date the
@@ -90,7 +90,7 @@ termination of the license.
 Subject to payment of the license fee and compliance with this
 Agreement, the Licensor grants the User a **non-exclusive**,
 **non-transferable**, **time-limited** (1 year), **personal**, and
-**worldwide** license to use MerQur Pro. The license covers the
+**worldwide** license to use MerQuR+. The license covers the
 following uses:
 
 **a) Academic use** — in teaching, theses, articles, conference papers,
@@ -109,7 +109,7 @@ reporting services, within the limits of Article 7.
 ### 3.2 User and Computer Limit
 
 The license is granted to a single person. The license holder may use
-MerQur Pro only personally and only on computers he or she uses. An
+MerQuR+ only personally and only on computers he or she uses. An
 institutional license for use by more than one person is granted under
 a separate written agreement with the Licensor.
 
@@ -122,7 +122,7 @@ Article 6 are explicitly prohibited.**
 
 ## 4. LICENSE FEE
 
-**a)** The MerQur Pro license is paid. The license fee, method of
+**a)** The MerQuR+ license is paid. The license fee, method of
 payment, renewal fee, and refund conditions, if any, are communicated to
 the User in writing (by quotation, invoice, or email) by the Licensor
 or the Authorized Reseller when the license is granted.
@@ -138,16 +138,16 @@ reserved.
 
 ## 5. ACADEMIC CITATION OBLIGATION
 
-The User is obligated to cite MerQur Pro in APA 7th edition format in
+The User is obligated to cite MerQuR+ in APA 7th edition format in
 every academic and scientific publication (article, thesis, conference
-paper, presentation, report, book chapter, etc.) produced using MerQur
-Pro:
+paper, presentation, report, book chapter, etc.) produced using
+MerQuR+:
 
-> Örücü, Ö. K. (2026). *MerQur Pro: Integrated Academic Data Analysis
+> Örücü, Ö. K. (2026). *MerQuR+: Integrated Academic Data Analysis
 > and Reporting Platform* (Version X.Y.Z; base version A.B.C) [Computer
 > software]. https://doi.org/10.53463/merqur.2026001
 
-Replace X.Y.Z with the MerQur Pro version used in the analysis and A.B.C
+Replace X.Y.Z with the MerQuR+ version used in the analysis and A.B.C
 with the MerQur base version on which that version is built (example:
 Version 3.0.0; base version 2.3.0). Help → About shows the ready-made
 citation for the running version.
@@ -157,7 +157,7 @@ BibTeX entry:
 ```bibtex
 @software{orucu2026merqurpro,
   author       = {Örücü, Ömer K.},
-  title        = {{MerQur Pro}: Integrated Academic Data Analysis and Reporting Platform},
+  title        = {{MerQuR+}: Integrated Academic Data Analysis and Reporting Platform},
   year         = {2026},
   version      = {X.Y.Z},
   doi          = {10.53463/merqur.2026001},
@@ -182,7 +182,7 @@ The User undertakes to refrain from the following:
 
 **a)** Copying and distributing to third parties, repackaging, or
 incorporating into another software the binary code, compiled form,
-installer, or any component of MerQur Pro. MerQur Pro shall only be
+installer, or any component of MerQuR+. MerQuR+ shall only be
 obtained from the Licensor or from the distribution channel designated
 by the Licensor.
 
@@ -200,11 +200,11 @@ on-screen attribution information contained in the software.
 software in whole or in part by reverse engineering, decompiling,
 disassembling, or similar methods.
 
-**f)** Using MerQur Pro for purposes contrary to Turkish legislation or
+**f)** Using MerQuR+ for purposes contrary to Turkish legislation or
 the legislation of the User's country; particularly in data processing
 activities that violate data protection laws such as KVKK / GDPR.
 
-**g)** Presenting reports, charts, and tables generated with MerQur Pro
+**g)** Presenting reports, charts, and tables generated with MerQuR+
 in academic or scientific publications as "a method developed by
 themselves" or concealing that the software was used.
 
@@ -215,8 +215,8 @@ parties.
 
 ## 7. COMMERCIAL USE
 
-**a)** A valid MerQur Pro license **covers commercial use**. The license
-holder may use MerQur Pro in consulting services, in paid analysis and
+**a)** A valid MerQuR+ license **covers commercial use**. The license
+holder may use MerQuR+ in consulting services, in paid analysis and
 reporting work, and in his or her own commercial activities. No separate
 Commercial Use Agreement is required for such use.
 
@@ -224,9 +224,9 @@ Commercial Use Agreement is required for such use.
 
 - reselling, renting, or sublicensing the software itself or the
   license key,
-- embedding MerQur Pro or any of its components in another product or
+- embedding MerQuR+ or any of its components in another product or
   distributing it as part of a product,
-- offering third parties access to MerQur Pro as a service (e.g., a
+- offering third parties access to MerQuR+ as a service (e.g., a
   multi-user server installation, or making it available to others
   through remote desktop or a web interface).
 
@@ -245,7 +245,7 @@ responsible for the operations performed by such code (including file,
 network, and system operations) and for its results.
 
 **b)** R, an external Python interpreter, and the packages used with
-them are not part of MerQur Pro. Such software is subject to its own
+them are not part of MerQuR+. Such software is subject to its own
 licenses and is installed by the User. The User is obligated to comply
 with those licenses.
 
@@ -255,7 +255,7 @@ the User's data are not guaranteed.
 
 **d)** The "SAS equivalent" code in the code library is provided for
 comparison and information purposes only. SAS and the other program
-names mentioned are trademarks of their respective owners. MerQur Pro is
+names mentioned are trademarks of their respective owners. MerQuR+ is
 not affiliated with, and is not endorsed by, these companies.
 
 ---
@@ -286,21 +286,21 @@ results; they only propose interpretive text.
 
 ## 10. DATA PRIVACY AND LOCAL USE
 
-**a)** MerQur Pro processes the User's data files only on the local
+**a)** MerQuR+ processes the User's data files only on the local
 computer. The software does not transmit any user data, analysis
 results, IP addresses, system information, or personal data to the
 Licensor or to any remote server (except as stated in paragraph (d) of
 this Article).
 
-**b)** MerQur Pro has no automatic update check.
+**b)** MerQuR+ has no automatic update check.
 
 **c)** License verification is offline; no network connection is made
 for the license check.
 
-**d)** MerQur Pro makes a network connection only if the User uses the
+**d)** MerQuR+ makes a network connection only if the User uses the
 AI-assisted features, and only to the provider chosen by the User
 (Article 9). In addition, when the User starts the update check from the Help
-menu, a connection is made to the MerQur Pro distribution page (GitHub)
+menu, a connection is made to the MerQuR+ distribution page (GitHub)
 only to retrieve the information file of the latest published release;
 no user data is sent with this request. Connections made by code that
 the User writes or runs in the Code tab fall under Article 8(a).
@@ -315,7 +315,7 @@ the User's data processing activities.
 
 ### 11.1 No Warranty Given
 
-MerQur Pro is provided **"AS-IS"**. Subject to mandatory statutory
+MerQuR+ is provided **"AS-IS"**. Subject to mandatory statutory
 provisions, the Licensor makes no warranties, express or implied. This
 warranty disclaimer includes but is not limited to:
 
@@ -338,7 +338,7 @@ fee paid by the User for the relevant license term**.
 
 ### 11.3 User's Verification Obligation
 
-The statistical results produced by MerQur Pro shall be verified within
+The statistical results produced by MerQuR+ shall be verified within
 the framework of the User's own **academic and professional knowledge
 and expertise**. The User is responsible for obtaining the opinion of an
 independent statistical expert / methodology advisor in the
@@ -349,23 +349,23 @@ third parties.
 
 ## 12. INTELLECTUAL PROPERTY RIGHTS
 
-**a)** MerQur Pro's source code, user interface design, icons, color
+**a)** MerQuR+'s source code, user interface design, icons, color
 palette, slogan, brand name, code library and templates, and all
 auxiliary materials (guidance documents, sample data sets,
 documentation, video introductions, etc.) belong exclusively to the
 Licensor. This Agreement grants the User only the right of use set out
 in Article 3; it grants no ownership rights in the software.
 
-**b)** The "MerQur" and "MerQur Pro" names, the slogan "Integrated
+**b)** The "MerQur" and "MerQuR+" (formerly "MerQur Pro") names, the slogan "Integrated
 Academic Data Analysis and Reporting Platform" / "Bütünleşik Akademik
 Veri Analizi ve Raporlama Platformu", and the "M" logo are registered
 trademarks of the Licensor.
 
-**c)** MerQur Pro is distributed only by the Licensor or through the
+**c)** MerQuR+ is distributed only by the Licensor or through the
 channel designated by the Licensor.
 
 **d)** The **content copyright** of analysis results, chart outputs,
-reports, and code written by the User using MerQur Pro belongs
+reports, and code written by the User using MerQuR+ belongs
 exclusively to the User. The software does not grant the Licensor any
 rights over these outputs.
 
@@ -373,28 +373,28 @@ rights over these outputs.
 
 ## 13. THIRD-PARTY SOFTWARE
 
-MerQur Pro incorporates open-source software (PyQt6, scipy,
+MerQuR+ incorporates open-source software (PyQt6, scipy,
 statsmodels, pandas, numpy, matplotlib, folium, geopandas, pyreadstat,
 python-docx, etc.) under their original licenses. License texts for
-these software packages are available in the MerQur Pro installation
+these software packages are available in the MerQuR+ installation
 folder and documentation. The User is also obligated to comply with
-these third-party licenses when using MerQur Pro.
+these third-party licenses when using MerQuR+.
 
-MerQur Pro also includes MrBayes 3.2.9 (GNU General Public License
+MerQuR+ also includes MrBayes 3.2.9 (GNU General Public License
 version 3) as a separate and independent program for Bayesian
 phylogenetic analysis. The license text and the unmodified source code
 of MrBayes are provided in the installation folder. R packages are not
-distributed with MerQur Pro; they are used from the User's own R
+distributed with MerQuR+; they are used from the User's own R
 installation under their own licenses.
 
 ---
 
 ## 14. UPDATES AND CONTINUITY
 
-**a)** The Licensor may add new features to MerQur Pro, modify existing
+**a)** The Licensor may add new features to MerQuR+, modify existing
 features, or withdraw them at any time.
 
-**b)** New versions of MerQur Pro are obtained by a new installation
+**b)** New versions of MerQuR+ are obtained by a new installation
 from the channel designated by the Licensor. The conditions of access
 to new versions are communicated when the license is granted.
 
@@ -415,7 +415,7 @@ Licensor has the right to terminate the license unilaterally without
 prior notice. Upon termination, the program does not open.
 
 **c)** In case of termination due to breach, the User is obligated to
-delete all copies of MerQur Pro (installed version, backups, installer,
+delete all copies of MerQuR+ (installed version, backups, installer,
 etc.).
 
 **d)** Regardless of the reason for which the license ends, the outputs
@@ -461,15 +461,15 @@ institutional license requests, or bug reports:
 
 ## 19. ACCEPTANCE STATEMENT
 
-By installing MerQur Pro, entering a license key, or using MerQur Pro,
+By installing MerQuR+, entering a license key, or using MerQuR+,
 you declare that you have read, understood, and accepted all provisions
 of this Agreement.
 
 ---
 
-*MerQur Pro © 2026 Ömer K. Örücü — Republic of
+*MerQuR+ © 2026 Ömer K. Örücü — Republic of
 Türkiye Ministry of Culture and Tourism Work Registration: 2026/18517*
 
 *Süleyman Demirel University, Çünür / ISPARTA — TÜRKİYE*
 
-*Agreement effective: the release date of MerQur Pro 3.0.0 · Begins with MerQur Pro 3.0.0*
+*Agreement effective: the release date of MerQuR+ 3.7.0 (PRO-1.2.0) · The Agreement began with MerQur Pro 3.0.0*
