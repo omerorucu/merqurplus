@@ -1,4 +1,33 @@
-# MerQur Pro: Changelog
+# MerQuR+: Changelog (formerly MerQur Pro)
+
+## 3.7.0 (2026-11): MerQur Pro is now MerQuR+; MerQur 2.7.0 base
+
+> "Societies that wish to live in comfort without working, without tiring and without producing are doomed to lose first their dignity, then their freedom, and then their independence and their future."
+> — Mustafa Kemal Atatürk
+
+**MerQur Pro is now MerQuR+.** The licensed edition has a new name. The capital R at the end refers to the R code behind the templates. MerQuR+ 3.7.0 is built on the free MerQur 2.7.0 base, and the accuracy fixes of 2.7.0 are also in MerQuR+. The template library (218 templates) and the Code tab are unchanged.
+
+#### Name change
+- The window title, splash screen, About box, report header and citation, license and update messages, shortcuts and the entry in the list of installed apps now say **MerQuR+**. Citation: *MerQuR+: Integrated Academic Data Analysis and Reporting Platform* (Version 3.7.0; base version 2.7.0).
+- The installer is `MerQuRPlus-3.7.0-windows-x64-Setup.exe` and the program file is `MerQuRPlus.exe`.
+- **It installs over your current installation.** Your license key stays valid and does not need to be entered again. Your settings, your templates and your code jobs stay in place. The installation folder does not change, and new installations default to `MerQuRPlus`. The old "MerQur Pro" shortcuts are removed and "MerQuR+" shortcuts are created. If you pinned the old shortcut to the taskbar, you may need to pin it again.
+- The license agreement is now the **MerQuR+ End User License Agreement**, agreement version PRO-1.2.0. Its terms and license conditions are unchanged. Because the version number changed, you are asked to accept the agreement once more at first start.
+- The script that installs the R packages is now `MerQuRPlus_R_Paketleri_Kur.bat`. In the Start menu it appears as "MerQuR+ - Install R packages".
+
+#### From the 2.7.0 base: fixes that may change results
+In the analyses below, the same data and options may give results that differ from the previous version. See the release notes of the free MerQur 2.7.0 for details.
+- **One rule for the order of group levels.** The order defined in the Data tab is used everywhere. This rule also decides the default event category of binary-outcome analyses, ordinal responses, Fisher's exact test, McNemar and Cochran's Q.
+- **Multiple comparisons and post hoc tests:** skipped rows in p-value input are now reported with their number, so the family size may change. Tukey HSD is computed from full-precision values. Very small adjusted p-values are no longer stored as 0. Step-down closure is applied in SNK and Duncan. Dunnett, ANOM and mixed ANOVA also have fixes.
+- **Unified definitions:** Monte Carlo p = (b + 1)/(B + 1). The covariate enters first in ANCOVA Type I sums of squares. Glass's Δ names the control group. d_av has one definition in all analyses. The McKeon approximation is used for the Hotelling–Lawley F. The Anderson–Darling test requires n ≥ 8. Probit heterogeneity is computed on aggregated data. In multi-location trials the F denominator follows the expected mean squares. Empty group levels are dropped.
+- **Regression:** cross-validation, adjusted R², R²(CV) and path stopping changed in Ridge, Lasso and regularized regression. The number of outliers in robust regression and binary logistic, probit, Tobit, panel, quantile and nonlinear regression, response surface, conditional logit and propensity score analyses also have fixes.
+- **Survival and time series:** Cox and time-dependent Cox, parametric survival (including complete separation), competing risks, interval-censored survival, gamma frailty, STL, Mann–Kendall (including Buishand and SNHT), ETS and ARIMA.
+- **Mixed models, GAM and GEE:** GAM curves are centred at zero mean and their terms are tested with the Wood (2013) test. The QIC definition in GEE is corrected. GLMM and nested mixed models also have fixes.
+- **Multivariate analysis and machine learning:** MANOVA, canonical correlation, exploratory factor analysis (RMSR), bootstrap in structural equation modelling, latent class analysis, discriminant analysis, classification analyses, the confusion matrix with ROC and TSS, k-nearest neighbours, gradient boosting, t-SNE, user-defined priors in Naive Bayes and multiple imputation (including the pooled R² confidence interval).
+- **Other analyses:** the percentile definition in descriptive statistics, the Bayesian t-test and Bayesian ANOVA, correlation and Bayesian correlation, Bland-Altman, the binomial test, effect size, bootstrap confidence intervals (including stratified), the permutation test, rank-based tests (Mann-Whitney U, Wilcoxon, Kruskal-Wallis, Friedman), Cohen's kappa, Likert analysis and constant or degenerate data.
+
+#### From the 2.7.0 base: display and messages
+- Confidence interval column headers in tables show the selected confidence level (e.g. "90% CI (lower)"). p-values have the same format in all tables.
+- Result texts, warnings and error messages were corrected in all three languages. Skipped rows and the definitions used are named in the output.
 
 ## 3.6.0 (2026-11): Fractal and long-memory analyses, parametric ROC, reference intervals by group, cluster sampling; MerQur 2.6.0 base
 
