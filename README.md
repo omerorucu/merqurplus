@@ -1,8 +1,10 @@
 <div align="center">
 
-<img src="icon/MerQurPro_icon_256.png" alt="MerQur Pro" width="160" />
+<img src="icon/MerQurPro_icon_256.png" alt="MerQuR+" width="160" />
 
-# MerQur Pro
+# MerQuR+
+
+*formerly MerQur Pro · eski adı MerQur Pro*
 
 ### *Analysis beyond the form: validated templates, code and the MerQur engine in one place*
 
@@ -15,23 +17,25 @@
 
 ---
 
-![Version](https://img.shields.io/badge/version-3.6.0-5B21B6?style=flat-square)
-![Base](https://img.shields.io/badge/base%20MerQur-2.6.0-7C3AED?style=flat-square)
+![Version](https://img.shields.io/badge/version-3.7.0-5B21B6?style=flat-square)
+![Base](https://img.shields.io/badge/base%20MerQur-2.7.0-7C3AED?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-blue?style=flat-square)
 ![Languages](https://img.shields.io/badge/i18n-TR%20%7C%20EN%20%7C%20ES-success?style=flat-square)
 ![Templates](https://img.shields.io/badge/validated%20templates-218%20in%2024%20categories-5B21B6?style=flat-square)
 ![License](https://img.shields.io/badge/license-commercial%20key%20required-orange?style=flat-square)
 
-**[⬇ Download MerQur Pro 3.6.0 for Windows](https://github.com/omerorucu/merqur_pro/releases/latest)**
+**[⬇ Download MerQuR+ 3.7.0 for Windows](https://github.com/omerorucu/merqurplus/releases/latest)**
 
 </div>
 
 ---
 
-## 🔍 What is MerQur Pro?
+## 🔍 What is MerQuR+?
 
-**MerQur Pro** is the licensed edition of [MerQur](https://github.com/omerorucu/merqur). It contains
-**everything in MerQur 2.6.0** (145 form-based analyses, 7 map methods, APA 7 reports) and adds
+> **MerQur Pro is now MerQuR+** (version 3.7.0). The capital R refers to the R code behind the templates. Install 3.7.0 over your current MerQur Pro: your license key, settings and templates are kept.
+
+**MerQuR+** is the licensed edition of [MerQur](https://github.com/omerorucu/merqur). It contains
+**everything in MerQur 2.7.0** (145 form-based analyses, 7 map methods, APA 7 reports) and adds
 **218 validated analysis templates** and a **Code tab** for analyses that a form cannot express:
 advanced econometrics, clinical prediction, phylogenetics, forest tree breeding, custom models, simulations and more.
 
@@ -47,12 +51,12 @@ report with a **"Software and citations"** section, and are saved with the proje
 
 </div>
 
-MerQur Pro installs **side by side** with the free MerQur: separate folder, settings, recent files and
+MerQuR+ installs **side by side** with the free MerQur: separate folder, settings, recent files and
 Start-menu icon. Installing or removing one does not affect the other.
 
 ---
 
-## ✨ What Pro adds
+## ✨ What MerQuR+ adds
 
 ### 📚 Template library: 218 validated analyses
 - Each template was **validated against a published source** (package vignette, textbook table or article)
@@ -85,7 +89,7 @@ Start-menu icon. Installing or removing one does not affect the other.
 **MrBayes 3.2.9 is included**: Bayesian phylogenetic analyses run with the bundled MrBayes; nothing else to install.
 
 ### 🧾 Software and citations, for your methods section
-Every run lists the software used, ready to paste into a paper: MerQur Pro, the R or Python version, and
+Every run lists the software used, ready to paste into a paper: MerQuR+, the R or Python version, and
 every package used **with its version and its official citation** (and MrBayes when it was run). The
 section stays in the report even when the code appendix is turned off. The package versions are also
 stored with `.mqs` scripts; re-running a script with different package versions shows a warning.
@@ -119,17 +123,17 @@ In the GUI each code step asks for approval; headless runs execute code steps on
 | **Disk** | about 1.5 GB |
 | **Memory** | 8 GB recommended |
 | **R (optional)** | R 4.5.x, needed for the R templates (190 of 218). Packages are installed from within R when a template asks for them. |
-| **Internet** | not required. MerQur Pro connects only when you send an AI request or start **Help → Check for updates** yourself. |
+| **Internet** | not required. MerQuR+ connects only when you send an AI request or start **Help → Check for updates** yourself. |
 
-macOS and Linux builds of MerQur Pro are not available yet. The free MerQur runs on all three.
+macOS and Linux builds of MerQuR+ are not available yet. The free MerQur runs on all three.
 
 ---
 
 ## 📥 Installation and updates
 
-1. Download **`MerQurPro-3.6.0-windows-x64-Setup.exe`** from the [latest release](https://github.com/omerorucu/merqur_pro/releases/latest).
+1. Download **`MerQuRPlus-3.7.0-windows-x64-Setup.exe`** from the [latest release](https://github.com/omerorucu/merqurplus/releases/latest).
 2. Run the installer. The publisher is shown as **Ömer Kamil Örücü** (code-signed).
-3. On first start, read and accept the **MerQur Pro license agreement**, then enter your **license key**.
+3. On first start, read and accept the **MerQuR+ license agreement**, then enter your **license key**.
 
 To update, install the new version over the existing one; your license, settings and templates are kept.
 **Help → Check for updates** tells you when a new version is available.
@@ -138,7 +142,7 @@ To update, install the new version over the existing one; your license, settings
 
 ## 🔑 License
 
-MerQur Pro is **paid software** and runs only with a **personal license key**:
+MerQuR+ is **paid software** and runs only with a **personal license key**:
 
 - The key is issued to a named person and is valid for **one year**. The holder's name and institution appear in the About window and in report footers.
 - Without a valid key the program does not open. The free [MerQur](https://github.com/omerorucu/merqur) remains available at no cost.
@@ -149,18 +153,18 @@ MerQur Pro is **paid software** and runs only with a **personal license key**:
 
 Full terms: [EULA-PRO-EN.md](EULA-PRO-EN.md) · [EULA-PRO-TR.md](EULA-PRO-TR.md)
 
-**Third-party software:** MerQur Pro includes MrBayes 3.2.9 (GNU GPL v3) as a separate program; its license
+**Third-party software:** MerQuR+ includes MrBayes 3.2.9 (GNU GPL v3) as a separate program; its license
 and unmodified source code are in the installation folder (`pro\ucuncu_taraf\mrbayes`). R packages are not
-distributed with MerQur Pro.
+distributed with MerQuR+.
 
-The MerQur Pro source code is not public. This repository is for distribution only (installer, license
+The MerQuR+ source code is not public. This repository is for distribution only (installer, license
 text, release notes).
 
 ---
 
 ## 📖 Citation
 
-> Örücü, Ö. K. (2026). *MerQur Pro: Integrated Academic Data Analysis and Reporting Platform* (Version 3.6.0; base version 2.6.0) [Computer software]. https://doi.org/10.53463/merqur.2026001
+> Örücü, Ö. K. (2026). *MerQuR+: Integrated Academic Data Analysis and Reporting Platform* (Version 3.7.0; base version 2.7.0) [Computer software]. https://doi.org/10.53463/merqur.2026001
 
 Please also cite the R packages and programs listed in the "Software and citations" section of your results.
 
@@ -171,13 +175,15 @@ Registered work: T.C. Ministry of Culture and Tourism, registration no. **2026/1
 <details>
 <summary><b>🇹🇷 Türkçe</b></summary>
 
-## MerQur Pro nedir?
+## MerQuR+ nedir?
 
-**MerQur Pro**, [MerQur](https://github.com/omerorucu/merqur)'un lisanslı sürümüdür. **MerQur 2.6.0'ın
+> **MerQur Pro artık MerQuR+** (sürüm 3.7.0). Sondaki büyük R, şablonların R ile çalışmasından gelir. 3.7.0'ı mevcut MerQur Pro kurulumunuzun üzerine kurun: lisans anahtarınız, ayarlarınız ve şablonlarınız korunur.
+
+**MerQuR+**, [MerQur](https://github.com/omerorucu/merqur)'un lisanslı sürümüdür. **MerQur 2.7.0'ın
 tamamını** (145 form tabanlı analiz, 7 harita yöntemi, APA 7 raporları) içerir; buna **218 doğrulanmış
 analiz şablonu** ve formla ifade edilemeyen analizler için bir **Kod sekmesi** ekler.
 
-**Pro'nun getirdikleri**
+**MerQuR+'nın getirdikleri**
 
 - **218 doğrulanmış şablon, 24 kategori:** her şablon yayımlanmış bir kaynakla, eşdeğer yordam varsa SAS ile karşılaştırıldı. Öne çıkanlar:
   - ekonometri: ARDL/NARDL, kırılmalı birim kök, ikinci kuşak panel, SFA, DEA, kesikli seçim;
@@ -189,21 +195,21 @@ analiz şablonu** ve formla ifade edilemeyen analizler için bir **Kod sekmesi**
   - diğer: oran meta-analizi, RI-CLPM, dialel, karışım deneyleri, uzay-zaman krigingi.
 - **Parametre ayarları penceresi:** yöntemin anlamlı bütün seçenekleri Değişkenler, Model, Seçenekler, Gelişmiş ve Çıktı sekmelerinde ayarlanabilir. Toplam 3.044 parametre var. **Tamam ve çalıştır** analizi bu ayarlarla çalıştırır.
 - **MrBayes 3.2.9 birlikte gelir:** Bayesçi filogeni ek kurulum gerektirmez.
-- **Yazılım ve atıflar:** her koşuda MerQur Pro, R/Python ve kullanılan paketler sürümleri ve resmî atıflarıyla listelenir; makalenin yöntem bölümüne doğrudan yapıştırılabilir. `.mqs` betiği farklı paket sürümleriyle yeniden çalıştırılırsa uyarı verilir.
+- **Yazılım ve atıflar:** her koşuda MerQuR+, R/Python ve kullanılan paketler sürümleri ve resmî atıflarıyla listelenir; makalenin yöntem bölümüne doğrudan yapıştırılabilir. `.mqs` betiği farklı paket sürümleriyle yeniden çalıştırılırsa uyarı verilir.
 - **Kod sekmesi:** gömülü Python 3.13, bilgisayardaki R 4.5.x; `mq` modülüyle MerQur motorları koddan çağrılır.
 - **AI Yorumlayıcı:** kendi API anahtarınızla sonuç ve rapor yorumu. Veri hücreleri gönderilmez; yapay zekâ sonuçları hesaplamaz ya da değiştirmez.
 - Ücretsiz MerQur ile **yan yana** kurulur.
 
 **Sistem gereksinimleri:** Windows 10/11 64 bit, yaklaşık 1,5 GB disk. R şablonları (218'in 190'ı) için R 4.5.x gerekir. Program yalnız sizin gönderdiğiniz AI isteklerinde ve **Yardım → Güncellemeleri Denetle** ile ağa çıkar.
 
-**Kurulum ve güncelleme:** [Son sürümden](https://github.com/omerorucu/merqur_pro/releases/latest) `MerQurPro-3.6.0-windows-x64-Setup.exe` indirilir ve çalıştırılır. Yeni sürüm mevcut kurulumun üzerine kurulur; lisans, ayarlar ve şablonlar korunur.
+**Kurulum ve güncelleme:** [Son sürümden](https://github.com/omerorucu/merqurplus/releases/latest) `MerQuRPlus-3.7.0-windows-x64-Setup.exe` indirilir ve çalıştırılır. Yeni sürüm mevcut kurulumun üzerine kurulur; lisans, ayarlar ve şablonlar korunur.
 
-**Lisans:** MerQur Pro ücretlidir ve kişiye özel, **bir yıllık** lisans anahtarıyla çalışır. **Ticari kullanım serbesttir.** Satış ve faturalama yetkili satıcı **Sekizgen Academy** tarafından yapılır.
+**Lisans:** MerQuR+ ücretlidir ve kişiye özel, **bir yıllık** lisans anahtarıyla çalışır. **Ticari kullanım serbesttir.** Satış ve faturalama yetkili satıcı **Sekizgen Academy** tarafından yapılır.
 Lisans için: [info@sekizgenacademy.com](mailto:info@sekizgenacademy.com) · [sekizgenacademy.com](https://sekizgenacademy.com) · Sözleşme: [EULA-PRO-TR.md](EULA-PRO-TR.md)
 
 **Üçüncü taraf yazılım:** MrBayes 3.2.9 (GNU GPL v3) ayrı bir program olarak birlikte gelir; lisans metni ve değiştirilmemiş kaynak kodu kurulum klasöründedir.
 
-**Atıf:** Örücü, Ö. K. (2026). *MerQur Pro: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.6.0; temel sürüm 2.6.0) [Bilgisayar yazılımı]. https://doi.org/10.53463/merqur.2026001 — Sonuçlardaki "Yazılım ve atıflar" bölümünde listelenen paketlere de atıf yapılması rica olunur.
+**Atıf:** Örücü, Ö. K. (2026). *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.7.0; temel sürüm 2.7.0) [Bilgisayar yazılımı]. https://doi.org/10.53463/merqur.2026001 — Sonuçlardaki "Yazılım ve atıflar" bölümünde listelenen paketlere de atıf yapılması rica olunur.
 
 </details>
 
