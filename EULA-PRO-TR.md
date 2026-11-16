@@ -1,25 +1,25 @@
-# MerQur Pro — Son Kullanıcı Lisans Sözleşmesi
+# MerQuR+ — Son Kullanıcı Lisans Sözleşmesi
 
-**Yazılım Adı:** MerQur Pro — Bütünleşik Akademik Veri Analizi ve Raporlama Platformu
-**Sürüm:** MerQur Pro 3.0.0 ve sonrası
+**Yazılım Adı:** MerQuR+ (önceki adı MerQur Pro) — Bütünleşik Akademik Veri Analizi ve Raporlama Platformu
+**Sürüm:** MerQuR+ 3.7.0 ve sonrası (MerQur Pro adıyla yayımlanan 3.0.0–3.6.0 sürümlerinin devamı)
 **Telif Hakkı:** © 2026 Ömer K. Örücü
 **Eser Tescili:** T.C. Kültür ve Turizm Bakanlığı, Eser Sicil No: **2026/18517**
-**Yürürlük Tarihi:** MerQur Pro 3.1.0'ın yayın tarihi (sözleşme sürümü PRO-1.1.0)
+**Yürürlük Tarihi:** MerQuR+ 3.7.0'ın yayın tarihi (sözleşme sürümü PRO-1.2.0)
 **İletişim:** info@sekizgenacademy.com
 
 ---
 
 ## ÖNEMLİ — LÜTFEN DİKKATLE OKUYUN
 
-MerQur Pro yazılımını kurarak, lisans anahtarını girerek veya yazılımı
+MerQuR+ yazılımını kurarak, lisans anahtarını girerek veya yazılımı
 kullanarak bu Son Kullanıcı Lisans Sözleşmesi'nin ("Sözleşme") tüm
 hükümlerini okuduğunuzu, anladığınızı ve bağlayıcı olduğunu kabul etmiş
-sayılırsınız. Bu hükümlere uymayı kabul etmiyorsanız MerQur Pro'yu
+sayılırsınız. Bu hükümlere uymayı kabul etmiyorsanız MerQuR+'yı
 yüklememeli ve kullanmamalısınız.
 
-MerQur Pro, ücretsiz MerQur sürümünden ayrı, **ücretli** ve **lisans
+MerQuR+, ücretsiz MerQur sürümünden ayrı, **ücretli** ve **lisans
 anahtarı gerektiren** bir sürümdür. Ücretsiz MerQur sürümü kendi Son
-Kullanıcı Lisans Sözleşmesi'ne tabidir; bu Sözleşme yalnız MerQur Pro'yu
+Kullanıcı Lisans Sözleşmesi'ne tabidir; bu Sözleşme yalnız MerQuR+'yı
 kapsar.
 
 ---
@@ -29,14 +29,14 @@ kapsar.
 **a)** **Lisans Veren:** Ömer K. Örücü, Süleyman Demirel Üniversitesi
 öğretim üyesi. T.C. Kültür ve Turizm Bakanlığı tarafından 2026/18517
 sayılı eser tescili ile MerQur yazılımının tek yetkili telif hakkı
-sahibidir. MerQur Pro, bu eserin genişletilmiş sürümüdür.
+sahibidir. MerQuR+, bu eserin genişletilmiş sürümüdür.
 
 **b)** **Lisans Alan ("Kullanıcı"):** Lisans Veren'den adına düzenlenmiş
-geçerli bir MerQur Pro lisans anahtarı alan gerçek kişi. Kurum adına
+geçerli bir MerQuR+ lisans anahtarı alan gerçek kişi. Kurum adına
 yapılan lisanslamada, anahtar kurumun bildirdiği ve anahtarda adı kayıtlı
 olan gerçek kişi için düzenlenir.
 
-**c)** **Yetkili Satıcı:** MerQur Pro lisansının satışı, faturalanması ve
+**c)** **Yetkili Satıcı:** MerQuR+ lisansının satışı, faturalanması ve
 bedelin tahsili, Lisans Veren'in yetkilendirdiği Sekizgen Academy
 ("Yetkili Satıcı") tarafından yapılır. Yetkili Satıcının ticari unvanı ve
 adresi lisans teklifinde veya faturada bildirilir. Yetkili Satıcı aracılığıyla
@@ -47,7 +47,7 @@ haklarını değiştirmez.
 
 ## 2. LİSANS ANAHTARI VE LİSANS SÜRESİ
 
-**a)** **Anahtar zorunluluğu:** MerQur Pro yalnız Lisans Veren tarafından
+**a)** **Anahtar zorunluluğu:** MerQuR+ yalnız Lisans Veren tarafından
 verilen geçerli bir lisans anahtarıyla çalışır. Lisans anahtarı
 girilmemişse, anahtar geçersizse veya lisans süresi dolmuşsa program
 açılmaz.
@@ -55,7 +55,7 @@ açılmaz.
 **b)** **Kişiye özel anahtar:** Lisans anahtarı kişiye özeldir. Lisans
 sahibinin adı, e-posta adresi ve kurumu anahtarda kayıtlıdır ve programın
 Hakkında penceresinde görünür. Lisans sahibinin adı ve kurumu (e-posta
-adresi hariç) MerQur Pro ile üretilen raporların künyesinde de yer alır.
+adresi hariç) MerQuR+ ile üretilen raporların künyesinde de yer alır.
 Lisans anahtarı başkasına devredilemez,
 paylaşılamaz ve satılamaz.
 
@@ -83,7 +83,7 @@ uzatmaya çalışmak dahil) lisansın derhal feshi sebebidir.
 ### 3.1 Verilen Haklar
 
 Lisans Veren, Kullanıcıya, lisans bedelinin ödenmesi ve bu Sözleşme'ye
-uyulması koşuluyla, MerQur Pro için **münhasır olmayan** (non-exclusive),
+uyulması koşuluyla, MerQuR+ için **münhasır olmayan** (non-exclusive),
 **devredilemez** (non-transferable), **süreli** (1 yıl), **kişiye özel**
 ve **dünya genelinde geçerli** bir kullanım lisansı verir. Lisans
 aşağıdaki kullanımları kapsar:
@@ -103,7 +103,7 @@ hizmetleri dahil, Madde 7'deki sınırlar içinde.
 
 ### 3.2 Kullanıcı ve Bilgisayar Sınırı
 
-Lisans tek bir kişiye verilir. Lisans sahibi MerQur Pro'yu yalnız kendisi
+Lisans tek bir kişiye verilir. Lisans sahibi MerQuR+'yı yalnız kendisi
 ve kendi kullandığı bilgisayarlarda kullanabilir. Birden çok kişinin
 kullanımına yönelik kurum lisansı, Lisans Veren ile ayrıca yapılacak
 yazılı bir anlaşmayla verilir.
@@ -117,7 +117,7 @@ sayılan kullanımlar açıkça yasaktır.**
 
 ## 4. LİSANS BEDELİ
 
-**a)** MerQur Pro lisansı ücretlidir. Lisans bedeli, ödeme biçimi,
+**a)** MerQuR+ lisansı ücretlidir. Lisans bedeli, ödeme biçimi,
 yenileme bedeli ve varsa iade koşulları, lisans verilirken Kullanıcıya
 yazılı olarak (teklif, fatura veya e-posta ile) Lisans Veren veya
 Yetkili Satıcı tarafından bildirilir.
@@ -133,15 +133,15 @@ saklıdır.
 
 ## 5. AKADEMİK ATIF YÜKÜMLÜLÜĞÜ
 
-Kullanıcı, MerQur Pro'yu kullanarak ürettiği her tür akademik ve bilimsel
-yayında (makale, tez, bildiri, sunum, rapor, kitap bölümü vb.) MerQur
-Pro'ya APA 7. baskı formatında aşağıdaki atfı yapmakla yükümlüdür:
+Kullanıcı, MerQuR+'yı kullanarak ürettiği her tür akademik ve bilimsel
+yayında (makale, tez, bildiri, sunum, rapor, kitap bölümü vb.) MerQuR+'ya
+APA 7. baskı formatında aşağıdaki atfı yapmakla yükümlüdür:
 
-> Örücü, Ö. K. (2026). *MerQur Pro: Bütünleşik Akademik Veri Analizi ve
+> Örücü, Ö. K. (2026). *MerQuR+: Bütünleşik Akademik Veri Analizi ve
 > Raporlama Platformu* (Sürüm X.Y.Z; temel sürüm A.B.C) [Bilgisayar
 > yazılımı]. https://doi.org/10.53463/merqur.2026001
 
-X.Y.Z yerine analizde kullanılan MerQur Pro sürümü, A.B.C yerine bu
+X.Y.Z yerine analizde kullanılan MerQuR+ sürümü, A.B.C yerine bu
 sürümün dayandığı MerQur temel sürümü yazılır (örnek: Sürüm 3.0.0; temel
 sürüm 2.3.0). Yardım → Hakkında penceresinde çalışan sürüm için hazır atıf
 metni gösterilir.
@@ -151,7 +151,7 @@ BibTeX karşılığı:
 ```bibtex
 @software{orucu2026merqurpro,
   author       = {Örücü, Ömer K.},
-  title        = {{MerQur Pro}: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu},
+  title        = {{MerQuR+}: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu},
   year         = {2026},
   version      = {X.Y.Z},
   doi          = {10.53463/merqur.2026001},
@@ -174,9 +174,9 @@ yapma hakkını saklı tutar.
 
 Kullanıcı aşağıdaki eylemlerden kaçınmakla yükümlüdür:
 
-**a)** MerQur Pro'nun ikili kodunu, derlenmiş hâlini, kurulum dosyasını
+**a)** MerQuR+'nın ikili kodunu, derlenmiş hâlini, kurulum dosyasını
 veya herhangi bir bileşenini çoğaltıp üçüncü kişilere dağıtmak, yeniden
-paketlemek veya başka bir yazılıma dahil etmek. MerQur Pro yalnız Lisans
+paketlemek veya başka bir yazılıma dahil etmek. MerQuR+ yalnız Lisans
 Veren'den veya Lisans Veren'in bildirdiği dağıtım kanalından edinilir.
 
 **b)** Lisans anahtarını paylaşmak, çoğaltmak, başkasına kullandırmak,
@@ -193,11 +193,11 @@ kaldırmak.
 engineering), kaynak koda dönüştürme (decompilation, disassembly) veya
 benzeri yöntemlerle incelemek, çözümlemek ya da türev eser üretmek.
 
-**f)** MerQur Pro'yu, T.C. mevzuatına veya Kullanıcının bulunduğu ülkenin
+**f)** MerQuR+'yı, T.C. mevzuatına veya Kullanıcının bulunduğu ülkenin
 mevzuatına aykırı amaçlarla kullanmak; özellikle KVKK / GDPR gibi veri
 koruma kanunlarını ihlal eden veri işleme süreçlerinde kullanmak.
 
-**g)** MerQur Pro ile üretilen rapor, grafik ve tabloları akademik veya
+**g)** MerQuR+ ile üretilen rapor, grafik ve tabloları akademik veya
 bilimsel yayınlarda "kendi geliştirdiği bir yöntemmiş gibi" sunmak veya
 yazılımın kullanıldığını gizlemek.
 
@@ -208,8 +208,8 @@ devretmek.
 
 ## 7. TİCARİ KULLANIM
 
-**a)** Geçerli bir MerQur Pro lisansı **ticari kullanımı kapsar**. Lisans
-sahibi MerQur Pro'yu danışmanlık hizmetlerinde, ücretli analiz ve
+**a)** Geçerli bir MerQuR+ lisansı **ticari kullanımı kapsar**. Lisans
+sahibi MerQuR+'yı danışmanlık hizmetlerinde, ücretli analiz ve
 raporlama işlerinde ve kendi ticari faaliyetlerinde kullanabilir. Bu
 kullanım için ayrıca bir Ticari Kullanım Sözleşmesi gerekmez.
 
@@ -217,9 +217,9 @@ kullanım için ayrıca bir Ticari Kullanım Sözleşmesi gerekmez.
 
 - yazılımın kendisini veya lisans anahtarını yeniden satmak, kiralamak
   veya alt lisanslamak,
-- MerQur Pro'yu veya bir bileşenini başka bir ürüne gömmek ya da bir
+- MerQuR+'yı veya bir bileşenini başka bir ürüne gömmek ya da bir
   ürünün parçası olarak dağıtmak,
-- üçüncü kişilere MerQur Pro'ya hizmet olarak erişim sunmak (ör. çok
+- üçüncü kişilere MerQuR+'ya hizmet olarak erişim sunmak (ör. çok
   kullanıcılı sunucu kurulumu, uzak masaüstü veya web arayüzü üzerinden
   başkalarının kullanımına açmak).
 
@@ -238,7 +238,7 @@ yaptığı işlemlerden (dosya, ağ ve sistem işlemleri dahil) ve
 sonuçlarından Kullanıcı sorumludur.
 
 **b)** R, harici Python yorumlayıcısı ve bunlarla kullanılan paketler
-MerQur Pro'nun parçası değildir. Bu yazılımlar kendi lisanslarına tabidir
+MerQuR+'nın parçası değildir. Bu yazılımlar kendi lisanslarına tabidir
 ve Kullanıcı tarafından kurulur. Kullanıcı bu lisanslara uymakla
 yükümlüdür.
 
@@ -248,7 +248,7 @@ garanti edilmez.
 
 **d)** Kod kütüphanesindeki "SAS karşılığı" kodlar yalnız karşılaştırma ve
 bilgi amaçlıdır. SAS ve metinde adı geçen diğer program adları
-sahiplerinin ticari markalarıdır. MerQur Pro bu şirketlerle bağlantılı
+sahiplerinin ticari markalarıdır. MerQuR+ bu şirketlerle bağlantılı
 değildir ve bu şirketler tarafından onaylanmamıştır.
 
 ---
@@ -278,21 +278,21 @@ sonuçlarını hesaplamaz veya değiştirmez; yalnız yorum metni önerir.
 
 ## 10. VERİ GİZLİLİĞİ VE YEREL KULLANIM
 
-**a)** MerQur Pro, Kullanıcının veri dosyalarını yalnızca yerel
+**a)** MerQuR+, Kullanıcının veri dosyalarını yalnızca yerel
 bilgisayarında işler. Yazılım, hiçbir kullanıcı verisini, analiz
 sonucunu, IP adresini, sistem bilgisini veya kişisel veriyi Lisans
 Veren'e veya herhangi bir uzak sunucuya göndermez (bu maddenin (d)
 bendi hariç).
 
-**b)** MerQur Pro'da otomatik güncelleme denetimi yoktur.
+**b)** MerQuR+'da otomatik güncelleme denetimi yoktur.
 
 **c)** Lisans doğrulaması çevrimdışıdır; lisans denetimi için ağ
 bağlantısı kurulmaz.
 
-**d)** MerQur Pro ağ bağlantısını yalnız Kullanıcı yapay zekâ destekli
+**d)** MerQuR+ ağ bağlantısını yalnız Kullanıcı yapay zekâ destekli
 özellikleri kullanırsa ve yalnız Kullanıcının seçtiği sağlayıcıya kurar
 (Madde 9). Ayrıca Kullanıcı Yardım menüsünden güncelleme denetimini başlattığında,
-yalnız yayımlanmış en son sürümün bilgi dosyası için MerQur Pro dağıtım
+yalnız yayımlanmış en son sürümün bilgi dosyası için MerQuR+ dağıtım
 sayfasına (GitHub) bağlantı kurulur; bu istekle kullanıcı verisi
 gönderilmez. Kullanıcının Kod sekmesinde kendisinin yazdığı veya
 çalıştırdığı kodun kurduğu bağlantılar Madde 8(a) kapsamındadır.
@@ -307,7 +307,7 @@ veri işleme süreçlerine taraf değildir.
 
 ### 11.1 Hiçbir Garanti Verilmemiştir
 
-MerQur Pro **"OLDUĞU GİBİ"** (AS-IS) sunulmaktadır. Lisans Veren, zorunlu
+MerQuR+ **"OLDUĞU GİBİ"** (AS-IS) sunulmaktadır. Lisans Veren, zorunlu
 yasal hükümler saklı kalmak kaydıyla, açık veya zımni hiçbir garanti
 vermez. Bu garanti reddi şunları içerir ancak bunlarla sınırlı değildir:
 
@@ -330,7 +330,7 @@ dönemi için ödediği bedelle sınırlıdır**.
 
 ### 11.3 Kullanıcının Doğrulama Yükümlülüğü
 
-MerQur Pro'nun ürettiği istatistiksel sonuçlar, Kullanıcının kendi
+MerQuR+'nın ürettiği istatistiksel sonuçlar, Kullanıcının kendi
 **akademik ve mesleki birikimi ve uzmanlığı çerçevesinde**
 doğrulanmalıdır. Kullanıcı, sonuçların yorumlanmasında, yayında ve
 üçüncü kişilere sunulan raporlarda bağımsız bir istatistik uzmanı /
@@ -340,21 +340,21 @@ metodoloji danışmanı görüşü almaktan sorumludur.
 
 ## 12. FİKRİ MÜLKİYET HAKLARI
 
-**a)** MerQur Pro'nun kaynak kodu, kullanıcı arayüzü tasarımı, ikonlar,
+**a)** MerQuR+'nın kaynak kodu, kullanıcı arayüzü tasarımı, ikonlar,
 renk paleti, slogan, marka adı, kod kütüphanesi ve şablonları ile tüm
 yardımcı materyalleri (rehber dosyaları, örnek veri setleri,
 dokümantasyon, video tanıtımlar vb.) münhasıran Lisans Veren'e aittir.
 Bu Sözleşme, Kullanıcıya yazılım üzerinde yalnız Madde 3'te sayılan
 kullanım hakkını verir; mülkiyet hakkı vermez.
 
-**b)** "MerQur" ve "MerQur Pro" adları, slogan "Bütünleşik Akademik Veri
+**b)** "MerQur" ve "MerQuR+" (önceki adı "MerQur Pro") adları, slogan "Bütünleşik Akademik Veri
 Analizi ve Raporlama Platformu" / "Integrated Academic Data Analysis &
 Reporting Platform" ve "M" logosu Lisans Veren'in tescilli markalarıdır.
 
-**c)** MerQur Pro yalnız Lisans Veren'den veya Lisans Veren'in bildirdiği
+**c)** MerQuR+ yalnız Lisans Veren'den veya Lisans Veren'in bildirdiği
 kanaldan dağıtılır.
 
-**d)** MerQur Pro kullanılarak Kullanıcı tarafından oluşturulan analiz
+**d)** MerQuR+ kullanılarak Kullanıcı tarafından oluşturulan analiz
 sonuçları, grafik çıktıları, raporlar ve Kullanıcının yazdığı kodların
 **içerik telif hakkı** münhasıran Kullanıcıya aittir. Yazılım bu
 çıktılar üzerinde Lisans Veren'e herhangi bir hak vermez.
@@ -363,27 +363,27 @@ sonuçları, grafik çıktıları, raporlar ve Kullanıcının yazdığı kodlar
 
 ## 13. ÜÇÜNCÜ TARAF YAZILIMLAR
 
-MerQur Pro, açık kaynak yazılımları (PyQt6, scipy, statsmodels, pandas,
+MerQuR+, açık kaynak yazılımları (PyQt6, scipy, statsmodels, pandas,
 numpy, matplotlib, folium, geopandas, pyreadstat, python-docx vb.)
 kendi orijinal lisansları altında bünyesinde barındırır. Bu yazılımların
-lisans metinleri MerQur Pro kurulum klasöründe ve dokümantasyonda
-mevcuttur. Kullanıcı, MerQur Pro'yu kullanırken bu üçüncü taraf
+lisans metinleri MerQuR+ kurulum klasöründe ve dokümantasyonda
+mevcuttur. Kullanıcı, MerQuR+'yı kullanırken bu üçüncü taraf
 lisanslara da uymakla yükümlüdür.
 
-MerQur Pro ayrıca Bayesçi filogeni çözümlemesi için MrBayes 3.2.9'u
+MerQuR+ ayrıca Bayesçi filogeni çözümlemesi için MrBayes 3.2.9'u
 (GNU Genel Kamu Lisansı sürüm 3) ayrı ve bağımsız bir program olarak
 içerir. MrBayes'in lisans metni ve değiştirilmemiş kaynak kodu kurulum
-klasöründe bulunur. R paketleri MerQur Pro ile dağıtılmaz; Kullanıcının
+klasöründe bulunur. R paketleri MerQuR+ ile dağıtılmaz; Kullanıcının
 kendi R kurulumundan, kendi lisanslarıyla kullanılır.
 
 ---
 
 ## 14. GÜNCELLEMELER VE SÜREKLİLİK
 
-**a)** Lisans Veren, MerQur Pro'ya herhangi bir zamanda yeni özellik
+**a)** Lisans Veren, MerQuR+'ya herhangi bir zamanda yeni özellik
 ekleyebilir, mevcut özellikleri değiştirebilir veya geri çekebilir.
 
-**b)** MerQur Pro'nun yeni sürümleri, Lisans Veren'in bildirdiği
+**b)** MerQuR+'nın yeni sürümleri, Lisans Veren'in bildirdiği
 kanaldan yeni kurulumla edinilir. Yeni sürümlere erişim koşulları
 lisans verilirken bildirilir.
 
@@ -403,7 +403,7 @@ sona erer ve program açılmaz.
 Lisans Veren önceden bildirimde bulunmaksızın lisansı tek taraflı
 olarak feshetme hakkına sahiptir. Fesih hâlinde program açılmaz.
 
-**c)** İhlal nedeniyle fesih hâlinde Kullanıcı, MerQur Pro'nun tüm
+**c)** İhlal nedeniyle fesih hâlinde Kullanıcı, MerQuR+'nın tüm
 kopyalarını (kurulu sürüm, yedek, kurulum dosyası vb.) silmekle
 yükümlüdür.
 
@@ -449,15 +449,15 @@ lisansı talebi veya hata bildirimi için:
 
 ## 19. KABUL BEYANI
 
-MerQur Pro'yu kurarak, lisans anahtarını girerek veya kullanarak, bu
+MerQuR+'yı kurarak, lisans anahtarını girerek veya kullanarak, bu
 Sözleşme'nin tüm maddelerini okuduğunuzu, anladığınızı ve kabul
 ettiğinizi beyan etmiş olursunuz.
 
 ---
 
-*MerQur Pro © 2026 Ömer K. Örücü — T.C. Kültür ve Turizm
+*MerQuR+ © 2026 Ömer K. Örücü — T.C. Kültür ve Turizm
 Bakanlığı Eser Tescili: 2026/18517*
 
 *Süleyman Demirel Üniversitesi, Çünür / ISPARTA — TÜRKİYE*
 
-*Sözleşme yürürlük: MerQur Pro 3.0.0'ın yayın tarihi · MerQur Pro 3.0.0 ile başlar*
+*Sözleşme yürürlük: MerQuR+ 3.7.0'ın yayın tarihi (PRO-1.2.0) · Sözleşme MerQur Pro 3.0.0 ile başlamıştır*
