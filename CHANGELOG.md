@@ -1,175 +1,43 @@
-# MerQuR+: Değişiklik Günlüğü (eski adı MerQur Pro)
+# MerQuR+: Değişiklik Günlüğü
 
-## 3.7.0 (2026-11) — MerQur Pro artık MerQuR+; MerQur 2.7.0 tabanı
-
-> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
-> — Mustafa Kemal Atatürk
-
-**MerQur Pro artık MerQuR+.** Lisanslı sürümün adı değişti; sondaki büyük R, şablonların R ile çalışmasından gelir. MerQuR+ 3.7.0 ücretsiz MerQur 2.7.0 tabanı üzerine kuruludur. 2.7.0'ın doğruluk düzeltmeleri MerQuR+'ta da vardır. Şablon kütüphanesi (218 şablon) ve Kod sekmesi değişmedi.
-
-#### Ad değişikliği
-- Pencere başlığı, açılış ekranı, Hakkında, rapor künyesi ve atıf, lisans ve güncelleme iletileri, kısayollar ve Uygulamalar listesindeki ad artık **MerQuR+**. Atıf: *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.7.0; temel sürüm 2.7.0).
-- Kurulum dosyası `MerQuRPlus-3.7.0-windows-x64-Setup.exe`, program dosyası `MerQuRPlus.exe`.
-- **Mevcut kurulumun üzerine kurulur.** Lisans anahtarınız geçerli kalır ve yeniden girilmez. Ayarlarınız, şablonlarınız ve kod işleriniz yerinde kalır. Kurulum klasörü değişmez. Yeni kurulumda varsayılan klasör `MerQuRPlus` olur. Eski "MerQur Pro" kısayolları kaldırılır, yerine "MerQuR+" kısayolları oluşturulur. Görev çubuğuna sabitlenmiş eski kısayolu yeniden sabitlemeniz gerekebilir.
-- Lisans sözleşmesinin adı **MerQuR+ Son Kullanıcı Lisans Sözleşmesi** oldu; sözleşme sürümü PRO-1.2.0. Hükümler ve lisans koşulları aynı kaldı. Sürüm numarası değiştiği için sözleşme ilk açılışta bir kez yeniden onaylanır.
-- R paketlerini kuran betiğin adı `MerQuRPlus_R_Paketleri_Kur.bat` oldu (Başlat menüsünde "MerQuR+ - R paketlerini kur").
-
-#### 2.7.0 tabanından gelenler: sonucu değiştirebilecek düzeltmeler
-Aşağıdaki analizlerde aynı veri ve seçeneklerle sonuç önceki sürümden farklı olabilir. Ayrıntılar ücretsiz MerQur 2.7.0 sürüm notundadır.
-- **Gruplu veride düzey sırası tek kurala bağlandı.** Veri sekmesinde tanımlanan sıra her yerde kullanılır. İkili sonuç analizlerinde varsayılan olay kategorisi, sıralı yanıt, Fisher kesin testi, McNemar ve Cochran Q bu kurala göre belirlenir.
-- **Çoklu karşılaştırma ve post hoc:** p değeri girişinde atlanan satırlar artık sayıyla bildirilir, bu nedenle aile büyüklüğü değişebilir. Tukey HSD tam değerden hesaplanır. Çok küçük düzeltilmiş p'ler artık 0 olarak saklanmaz. SNK ve Duncan'da adım adım kapanış uygulanır. Dunnett, ANOM ve karma desen ANOVA'da da düzeltmeler var.
-- **Tanımların birleştirilmesi:** Monte Carlo p = (b + 1)/(B + 1). ANCOVA Tip I kareler toplamında kovaryat önce girer. Glass Δ kontrol grubunu adıyla yazar. d_av bütün analizlerde aynı tanımla hesaplanır. Hotelling–Lawley F için McKeon yaklaşımı kullanılır. Anderson–Darling testi n ≥ 8 ister. Probit heterojenliği toplulaştırılmış veride hesaplanır. Çok lokasyonlu denemede F paydası beklenen kareler ortalamasına göre seçilir. Boş grup düzeyi analizden çıkarılır.
-- **Regresyon:** Ridge, Lasso ve düzenlileştirilmiş regresyonda çapraz doğrulama, düzeltilmiş R², R²(CV) ve yol durdurma değişti. Sağlam regresyonda aykırı gözlem sayısı, ikili lojistik, probit, Tobit, panel, kantil, doğrusal olmayan regresyon, yanıt yüzeyi, koşullu lojit ve eğilim skoru analizlerinde de düzeltmeler var.
-- **Sağkalım ve zaman serisi:** Cox ve zamana bağlı Cox, parametrik sağkalım (tam ayrışma dahil), rakip riskler, aralık sansürlü sağkalım, gamma kırılganlık, STL, Mann–Kendall (Buishand ve SNHT dahil), ETS ve ARIMA.
-- **Karma modeller, GAM ve GEE:** GAM eğrileri sıfır ortalamaya merkezlenir ve terimler Wood (2013) testiyle sınanır. GEE'de QIC tanımı düzeltildi. GLMM ve iç içe karma modelde de düzeltmeler var.
-- **Çok değişkenli analiz ve makine öğrenmesi:** MANOVA, kanonik korelasyon, açıklayıcı faktör analizi (RMSR), yapısal eşitlik modelinde bootstrap, gizil sınıf analizi, diskriminant analizi, sınıflama analizleri, karmaşıklık matrisi, ROC ve TSS, k-en yakın komşu, gradyan artırma, t-SNE, Naive Bayes'te kullanıcı önseli ve çoklu atama (havuzlanmış R² güven aralığı dahil).
-- **Öteki analizler:** tanımlayıcı istatistiklerde yüzdelik tanımı, Bayesçi t testi ve Bayesçi ANOVA, korelasyon ve Bayesçi korelasyon, Bland-Altman, binom testi, etki büyüklüğü, bootstrap güven aralığı (tabakalı dahil), permütasyon testi, sıra temelli testler (Mann-Whitney U, Wilcoxon, Kruskal-Wallis, Friedman), Cohen kappa, Likert analizi ve sabit ya da dejenere veri durumları.
-
-#### 2.7.0 tabanından gelenler: gösterim ve iletiler
-- Tablolardaki güven aralığı sütun başlıkları seçilen güven düzeyini gösterir (ör. "%90 GA (alt)"). p değerlerinin biçimi bütün tablolarda aynıdır.
-- Sonuç metinleri, uyarılar ve hata iletileri üç dilde düzeltildi. Atlanan satırlar ve kullanılan tanımlar çıktıda adıyla yazılır.
-
-## 3.6.0 (2026-11) — Fraktal ve uzun bellek çözümlemeleri, parametrik ROC, gruplara göre referans aralığı, küme örneklemesi; MerQur 2.6.0 tabanı
+## 3.7.0 (2026-11-16) — ilk sürüm
 
 > "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
 > — Mustafa Kemal Atatürk
 
-MerQur Pro 3.6.0, ücretsiz MerQur 2.6.0 tabanıyla zaman serisi şablonlarına fraktal ve uzun bellek çözümlemelerini, tanı testi ve anket şablonlarına parametrik ROC, gruplara göre referans aralığı ve küme örneklemesini ekler. Ücretsiz 2.6.0'ın yeni analizleri (kapsam geçerliliği, Naive Bayes sınıflandırıcı, güç analizinde EAA, Kruskal-Wallis, Friedman ve büyük çapraz tablolar için kesin p) ve düzeltmeleri Pro'da da vardır.
-- Yeni şablon (toplam 218): **çok fraktallı eğilimden arındırılmış dalgalanma analizi (DFA ve MFDFA).** Profil, iki yönlü bölütleme, 1-3. dereceden eğilim, logaritmik aralıklı ölçekler ve q aralığıyla dalgalanma fonksiyonları; genelleştirilmiş Hurst üsleri h(q) (SH ve güven aralığıyla), kütle üssü τ(q), Legendre dönüşümüyle tekillik spektrumu f(α), spektrum genişliği ve asimetrisi; isteğe bağlı karıştırılmış ve faz rastgeleleştirilmiş yüzey serilerle çoklu fraktallığın kaynağının yorumu. Python sürümü de vardır.
-- Yeni şablon: **fraktal boyut kestirimleri.** Zaman serisi için Higuchi, Katz, Petrosian, grafik üzerinde kutu sayma, madogram ve variogram; nokta koordinatları ya da PNG görüntüsü için iki boyutlu kutu sayma; log-log uyum grafikleri, ölçek aralığı ve R².
-- Yeni şablon: **Hurst üssü kestiricilerinin karşılaştırması.** Aynı seride R/S (Anis-Lloyd düzeltmeli), DFA, log-periodogram (GPH), toplu varyans ve dalgacık (Abry-Veitch) kestirimleri yan yana, tutarlılık notuyla.
-- Yeni şablon: **parametrik (binormal) ve yarı parametrik (ROC-GLM) ROC çözümlemesi.** Binormal ROC eğrisi ve AUC (normal varsayımı ve isteğe bağlı log ya da Box-Cox dönüşümü, sıralı puanlar için Dorfman-Alf en çok olabilirlik ya da ROC noktalarına regresyon), delta yöntemiyle güven aralığı; ampirik AUC ve DeLong güven aralığı yan yana; ampirik ve binormal Youden kesim noktaları. Ortak değişken seçilirse Pepe'nin ROC-GLM'i (probit ya da logit) ile koşullu ROC ve AUC, ortak değişkene göre düzeltilmiş ROC (AROC) ve isteğe bağlı indüklenmiş yöntem; tohumlu bootstrap güven aralıkları. pROC, ordinal, ROCnReg ve bağımsız bir ROC-GLM uygulamasıyla, SAS'ta LOGISTIC, NLMIXED, IML, REG ve GENMOD ile doğrulandı; örnek veri sabit tohumlu yapaydır.
-- Yeni şablon: **gruplara göre referans aralığı.** Yaş grubu, cinsiyet ya da sürekli bir değişkenin kesim noktalarıyla oluşturulan gruplarda %95 referans aralığı ve sınırların %90 güven aralığı: parametrik olmayan (CLSI EP28-A3c sıra değerleri, sıra istatistiği ya da bootstrap güven aralığı), parametrik (isteğe bağlı Box-Cox) ve sağlam (Horn-Pesce) yöntemler; grupların ayrı aralık gerektirip gerektirmediğine Harris-Boyd z ölçütüyle karar; Tukey, Box-Cox ölçeğinde Tukey ya da Dixon-Reed aykırı değer taraması; grup bazında aralık grafiği. Sonuçlar referenceIntervals paketiyle (bootstrap aralıkları dahil) aynıdır. Yaşla sürekli değişen persentil eğrileri için GAMLSS şablonu önerilir.
-- Anket örneklem seçimi şablonuna **küme örneklemesi** eklendi: tek aşamalı küme (kümeler basit rastgele ya da büyüklükle orantılı seçilir, seçilen kümenin bütün birimleri alınır), tabakalı küme ve iki aşamalı örnekleme (küme içinde birim seçimi); her aşamanın içerilme olasılığı ve bunların çarpımından tasarım ağırlıkları; seçimi yineleyen tohum seçeneği. Aynı tohumla seçim R sampling paketiyle birebir aynıdır; olasılıklar SAS SURVEYSELECT ile doğrulandı. Mevcut seçenekler ve sonuçları değişmedi.
-- Üç şablon, kuramsal değerleri bilinen serilerle (binom çoklu fraktal kaskadı, kesirli Gauss gürültüsü, Brown hareketi, Weierstrass fonksiyonu, Sierpinski halısı) ve R paketleriyle (MFDFA, fractaldim, pracma, fracdiff, longmemo) doğrulandı.
-- Düzeltmeler: uzaklıkla yalıtım sonuç cümlesinde Türkçe ondalık virgül; çok durumlu modelde ara ve son durumun varsayılan adları arayüz dilinde; yineleyen olay modellerinde kırılganlık seçeneğinin adı (gamma ya da log-normal); popülasyon yapısında sNMF küme sayısı seçimi belirsiz olduğunda açıklayıcı not; optimal tasarımda "Fedorov" yazımı; parametre etiketlerinde tire biçimi; iki doğrulama kaydının künyesi ve topluluk ağırlıklı ortalamalar şablonunun SAS karşılaştırması tamamlandı. Sürüm öncesi dayanıklılık turunda bulunanlar: uzaklıkla yalıtımda birey düzeyi Öklid uzaklığı eksik genotipli veride hata veriyordu (eksik genotip artık alel ortalamasıyla doldurulur); popülasyon yapısında sNMF tek tekrarla çalıştırıldığında çapraz entropi grafiği hata veriyor, birden çok tekrarda y ekseni gereğinden geniş çiziliyordu; MFDFA ve Hurst şablonlarında ölçek sınırı iletileri.
-- Örnek veri: sabit tohumlu yapay fraktal seriler ve Sierpinski halısı.
-- Uzaklıkla yalıtımda birey düzeyindeki Mantel testleri ve korelogram çok sayıda çiftle (özellikle Kendall katsayısıyla) uzun sürebileceğinde, çalıştırmanın başında birey ve çift sayısı, permütasyon sayısı ve kaba süre tahminiyle uyarı verilir; daha az permütasyon, başka katsayı ya da popülasyon düzeyi önerilir. Sonuç değişmez.
-- Sürüm denetimi: tam test takımı (ücretsiz çekirdek ve Pro) 15.931 test (75 atlanan), başarısız yok. Dayanıklılık turunda yeni ve değişen 14 şablon 1.206 çalıştırmayla (seçenekler tek tek ve ikili kombinasyonlarla, bozuk veri varyantları, Türkçe/İngilizce/İspanyolca), diğer 213 şablon 1.462 çalıştırmalık hızlı turla sınandı; ücretsiz sürümün yeni ve değişen altı analizi 378 çalıştırmayla tarandı. 216 şablonun parametre etiketleri üç dilde 8.424 seçenek denetiminden geçti. Çevrilmemiş (ham) hata sayısı 9'dan 0'a indi.
+MerQuR+, ücretsiz MerQur 2.7.0 temel sürümü üzerine kurulu, lisanslı bir analiz ortamıdır. Ücretsiz MerQur 2.7.0'ın bütün analizlerini ve düzeltmelerini içerir; bunlara doğrulanmış analiz şablonları ve Python/R ile kod çalıştırma ekler. Sondaki büyük R, şablonların R ile çalışmasından gelir.
 
-## 3.5.0 (2026-11) — Ekoloji: topluluk ağırlıklı ortalamalar ve gradyan modelleri, PERMDISP seçenekleri; MerQur 2.5.0 tabanı
+#### Şablonlar
+- **218 doğrulanmış şablon, 24 kategori** (190 R, 28 Python). Her şablonun parametre formu, örnek verisi ve örnek ayarları vardır. Şablonlar yayımlanmış kaynaklarla, eşdeğer bir yordam varsa SAS ile karşılaştırıldı; SAS karşılığının kodu da gösterilir. "Şablon olarak kaydet…" ile kişisel şablon eklenir; şablon ağacında arama kutusu vardır. Öne çıkanlar:
+  - ekonometri: ARDL/NARDL, kırılmalı birim kök, ikinci kuşak panel, yapısal VAR, genişletilmiş GARCH, stokastik sınır analizi, veri zarflama analizi, kesikli seçim;
+  - klinik: klinik tahmin modeli, cezalı Cox, RMST, çapraz geçiş, biyoeşdeğerlik, parametrik (binormal) ve ROC-GLM ROC, gruplara göre referans aralığı;
+  - orman ağacı ıslahı ve nicel genetik: orijin–döl denemesi, kalıtım derecesi ve genetik korelasyon, seleksiyon indeksleri, QST–FST, tohum bahçesinde çeşitlilik, klon ve çok lokasyonlu denemeler;
+  - genetik: dizi verisiyle AMOVA, MrBayes ile Bayesçi filogeni, DNA barkodlama, dizi hizalama;
+  - tohum tescili (DUS ve VCU/TDÖ): COYD, COYU, off-type, GAIA uzaklığı, Lokasyon × Yıl birleşik tesadüf blokları;
+  - ekoloji: topluluk ağırlıklı ortalamalar ve çevresel gradyan modelleri, PERMANOVA ve PERMDISP, doluluk ve yakala-yeniden yakala modelleri;
+  - zaman serisi: çok fraktallı DFA (MFDFA), fraktal boyut ve Hurst üssü kestiricileri, joinpoint ve kesintili zaman serisi;
+  - diğer: oran meta-analizi, RI-CLPM, dialel, karışım deneyleri, uzay-zaman krigingi, çok değişkenli kontrol kartı, yapısal konu modeli (STM), küme örneklemesi.
+- **Parametre ayarları penceresi.** Yöntemin anlamlı bütün seçenekleri Değişkenler, Model, Seçenekler, Gelişmiş ve Çıktı sekmelerinde ayarlanır; **Tamam ve çalıştır** analizi bu ayarlarla çalıştırır.
+- **Çok dilli şablon çıktısı.** Metin çıktıları, tablo sütun adları ve hücreleri, kod yorumları ve SAS karşılıkları Türkçe, İngilizce ve İspanyolca arayüzde o dilde gösterilir; ondalık ayırıcı dile uyar.
+- **MrBayes 3.2.9 birlikte gelir** (GNU GPL v3, ayrı program; lisans ve kaynak kodu kurulum klasöründe).
 
-> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
-> — Mustafa Kemal Atatürk
+#### Kod sekmesi
+- Gömülü Python 3.13 ve bilgisayardaki R 4.5.x ile kod çalıştırma; isteğe bağlı olarak kendi Python yorumlayıcınız. Etkin veri `df` olarak gelir. Tablo, grafik ve metin çıktıları Sonuçlar, Tablo, Grafik ve Rapor sekmelerine kart olarak düşer, DOCX raporuna koduyla girer ve `.mqr` projesiyle kaydedilir.
+- Kod ayrı işçi süreçte çalışır: İptal 1 saniyede durdurur, zaman sınırı ayarlanabilir, işçi çökse de ana pencere ayakta kalır. Sözdizimi hatası satırında vurgulanır; eksik pakette kurulum önerisi gelir; geçmiş listesi vardır.
+- **`mq` modülü:** MerQur analiz motorları koddan çağrılır; `mq.veriye_yaz` yeni sütunları ya da süzülmüş satırları onay penceresiyle Veri sekmesine yazar ve geri alınabilir.
+- **`.mqs` kod adımı:** arayüzde her kod adımı için onay istenir; başsız çalıştırmada kod adımları yalnız `--kod-izin` ile çalışır.
 
-- Yeni şablon (toplam 212): **topluluk ağırlıklı ortalamalar (CWM), çeşitlilik ve çevresel gradyan modelleri.** Tür örtü tablosu ve tür özellik tablosundan her örnek alan için CWM, tür sayısı ve Shannon H′ hesaplanır; her yanıt gradyan değişkeni, alan etkeni ve ortak değişkenlerle doğrusal modelle incelenir (F testi ve AIC ile adım adım sadeleştirme, artık denetimleri, Tukey karşılaştırmaları ve harf grupları). CWM için satır, sütun ve en büyük p (max) permütasyon testleri; Jennings-Fischer toplam tepe örtüsü; harfli kutu ve gradyan boyunca serpme grafik panelleri. Yayımlanmış değerlerle ve R paketleriyle (vegan, weimea, emmeans, multcompView) doğrulandı.
-- PERMANOVA ve Mantel şablonu: yayılım homojenliği testine (PERMDISP) uzamsal medyan merkezi, uzaklıkların karekökü ve küçük grup yanlılık düzeltmesi seçenekleri; noktaları ikinci bir etkene göre renklendirme; grupların dışbükey zarfları ve merkezleriyle ordinasyon grafiği.
-- Örnek veri: Akdeniz servisi plantasyonlarının alt katı (Pelella ve ark. 2026; CC BY 4.0).
+#### Yazılım ve atıflar
+- Her kod ve şablon koşusunda MerQuR+, R/Python ve kullanılan paketler sürümleri ve resmî atıflarıyla listelenir (MrBayes çalıştıysa o da). Bölüm, kod eki kapalıyken de raporda kalır. `.mqs` betiği farklı paket sürümleriyle yeniden çalıştırılırsa uyarı verilir.
+- Atıf: Örücü, Ö. K. (2026). *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.7.0; temel sürüm 2.7.0) [Bilgisayar yazılımı]. https://doi.org/10.53463/merqur.2026001
 
-## 3.4.0 (2026-11) — Doğruluk ve doğrulama; MerQur 2.5.0 tabanı
+#### AI Yorumlayıcı
+- Kendi API anahtarınızla sonuç ve rapor yorumu. Veri hücreleri gönderilmez; yapay zekâ sonuçları hesaplamaz ya da değiştirmez.
 
-> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
-> — Mustafa Kemal Atatürk
+#### Lisans, kurulum ve güncelleme
+- Kişiye özel, bir yıllık, çevrimdışı doğrulanan lisans anahtarı. Lisans sahibinin adı ve kurumu Hakkında penceresinde ve rapor künyesinde görünür. MerQuR+ Son Kullanıcı Lisans Sözleşmesi geçerlidir; ticari kullanım serbesttir.
+- Ücretsiz MerQur ile aynı bilgisayarda **yan yana** çalışır: ayrı klasör, ayarlar, son dosyalar listesi ve simge. İlk açılışta ücretsiz sürümün dil, tema, yazı boyutu, grafik DPI ve AI sağlayıcı ayarları bir kez aktarılır.
+- Program kendiliğinden ağa çıkmaz. **Yardım → Güncellemeleri Denetle** yalnız tıklanınca çalışır.
+- Kurulum dosyası `MerQuRPlus-3.7.0-windows-x64-Setup.exe`; kurulum dosyası ve program Ömer Kamil Örücü adına kod imzalıdır.
 
-- MerQur Pro 3.4.0, ücretsiz MerQur 2.5.0'ın doğruluk ve doğrulama iyileştirmelerini getirir: sonuç değerleri tam duyarlıkla saklanır, çok küçük değerler anlamlı basamakla yazılır.
-- Veri yükleme, probit (doğal yanıt), GLMM/GEE, eşbütünleşme ve Cox regresyonunda belirli veri durumlarında sonucu etkileyen hatalar giderildi.
-- Panel regresyonu, karma modeller, MANOVA, ARIMA, Cox ve sağlam regresyon, Dunn testi, makine öğrenmesi ve çoklu atamaya yeni seçenekler eklendi (varsayılan olarak kapalı); çok gruplu doğrulayıcı faktör analizi ve ölçme değişmezliği hızlandı.
-- Şablon kütüphanesi değişmedi (211 şablon); metinlerde ve kararlılıkta küçük iyileştirmeler yapıldı.
-
-## 3.3.0 (2026-11) — 16 yeni şablon: orman ağacı ıslahı ve nicel genetik, kalite, zaman serisi; MerQur 2.4.1 tabanı
-
-> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
-> — Mustafa Kemal Atatürk
-
-- 16 yeni şablon (toplam 211), her biri yayımlanmış kaynakla ve eşdeğeri varsa SAS ile karşılaştırıldı:
-  - Orman ağacı ıslahı ve nicel genetik:
-    - orijin–döl denemesi: varyans bileşenleri; birey ve aile ortalaması kalıtım dereceleri ile standart hataları; değişkenlik katsayıları; iki değişkenli REML ile genetik korelasyon ve standart hatası; farklı bireylerde ölçülen özellikler için B tipi korelasyon; tekrarsız denemeler için model;
-    - seleksiyon kazancı ve seleksiyon indeksleri (Smith–Hazel, kısıtlı indeks, Pesek–Baker istenen kazanç indeksi);
-    - QST–FST karşılaştırması;
-    - tohum bahçesi ve ıslah populasyonunda genetik çeşitlilik (doğurganlık değişkenliği, etkili ebeveyn sayısı, statü sayısı, dış polen katkısı, seyreltmenin etkisi);
-    - klon denemesi ve çok lokasyonlu döl denemesi (geniş anlamda kalıtım derecesi, B tipi genetik korelasyon, yaş–yaş korelasyonu).
-  - Kalite: çok değişkenli kontrol kartı (Hotelling T², temel bileşen tabanlı T² ve SPE izleme, katkı ayrıştırması); normal olmayan süreç yeterliliği (yüzdelik/Clements, Weibull, lognormal, gama, Johnson, Box-Cox).
-  - Zaman serisi ve ekonometri: yapısal VAR (A/B kısıtları, Blanchard–Quah uzun dönem tanımlaması, yapısal etki-tepki, FEVD); genişletilmiş GARCH (GARCH-M, IGARCH, GJR/TGARCH, APARCH, EGARCH, NAGARCH; normal, t, GED); panel sayım modelleri (sabit ve rastgele etkili Poisson ve negatif binom, Hausman testi).
-  - Karma model ve sağkalım: faktör analitik kovaryans yapılı karma model (çok çevreli denemeler, genotip × çevre); sıralı ve nominal yanıtlı GEE; kesikli zaman sağkalım modeli (kişi-dönem verisi, lojit/cloglog).
-  - Çok değişkenli ve nedensel: yeniden örneklemeli çoklu test düzeltmesi (Westfall–Young maxT ve minP); sosyal ağ analizi (merkezilik, yoğunluk, topluluk bulma); nedensel çizge (DAG) çözümlemesi (ayarlama kümeleri, araç değişkenler, sınanabilir koşullu bağımsızlıklar).
-- Grup ardışık tasarım şablonuna yararsızlık sınırı seçeneği (bağlayıcı ve bağlayıcı olmayan β harcaması).
-- Genetik örnek verileri: beş genetik şablonun örnek verisi açık lisanslı (CC0) Toros göknarı (Abies cilicica) mikrosatellit verisiyle değiştirildi; şablonlar bu veride yayımlanmış değerlerle yeniden doğrulandı.
-- Düzeltme: normal olmayan süreç yeterliliğinde Johnson SB dağılımı, dağılımın tanım aralığı dışındaki gözlemlerde hata vermek yerine birikimli olasılığı 0 ya da 1 alır.
-- Ücretsiz MerQur 2.4.0 ve 2.4.1 ile gelen bütün analizler ve düzeltmeler: altı yeni analiz (Gamma/Ters Gauss/Tweedie GLM, göreli risk ve prevalans oranı, karmaşık örneklem sıralı ve çok terimli lojistik regresyon, tolerans aralıkları, ANOM), Rastgeleleştirme Planı aracı, ondalık virgüllü ve metin olarak saklanmış sayıların okunması; Varyans Bileşenleri ile boş hücreli iki yönlü ANOVA, ANCOVA ve çapraz karma model düzeltmeleri.
-
-## 3.2.0 (2026-11) — STM, tohum tescili şablonları, MerQur 2.3.2 tabanı
-
-> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
-> — Mustafa Kemal Atatürk
-
-- Yeni şablon: yapısal konu modeli (STM); metin sütunundan konular, ortak değişkenlerle konu yaygınlığı ve içeriği, K seçimi, temsilî belgeler, etki grafikleri, konu ağı.
-- Yeni: tohum tescili (DUS ve VCU/TDÖ) için beş şablon: yıllar üzerinden birleşik farklılık (COYD; uzun dönem, MJRA, 2×%1, karar şemaları), yıllar üzerinden birleşik yeknesaklık (COYU; göreli varyans), off-type ile yeknesaklık (tek ve iki aşamalı test, OC eğrisi), GAIA fenotipik uzaklık ve Lokasyon × Yıl birleşik tesadüf blokları (TTSM tablosu, sabit/rastgele etki, Satterthwaite ve REML, EMM, AÖF, harf grupları). UPOV TGP/8/5 çözümlü örnekleri ve SAS ile doğrulandı (toplam 195 şablon).
-- Şablon çıktılarında dile duyarlı ondalık ayırıcı; şablon hata düzeltmeleri; 14 şablona SAS karşılığı.
-- Ücretsiz MerQur 2.3.2 düzeltmeleri: uygulanamayan seçenekler artık sonuçta gerekçesiyle gösterilir, yakınsama uyarıları görünür.
-- Açımlayıcı faktör analizi, eğik döndürme: döndürme kareler toplamı sütunu diag(ΦP′P) olarak etiketlenir, yanına yapı matrisinin kareler toplamı (ΣS²) eklenir; "toplanamaz" notu yalnız eğik döndürmede basılır. Sayılar değişmedi.
-- MANOVA (çapraz desen): hesap yapılamadığında gerçek neden (boş hücre, tekil tasarım matrisi, yetersiz hata serbestlik derecesi) açıkça yazılır.
-
-## 3.1.0 (2026-11) — 24 yeni şablon, parametre penceresi, atıflar
-
-### Yeni
-
-- **24 yeni doğrulanmış şablon (toplam 189).**
-
-  - Ekonometri: ARDL/NARDL sınır testi, kırılmalı birim kök (Zivot–Andrews, Lee–Strazicich) ve Toda–Yamamoto, ikinci kuşak panel (Pesaran CD, CIPS, Pedroni, Kao, Dumitrescu–Hurlin, CCE/AMG), stokastik sınır analizi, veri zarflama analizi ve Malmquist endeksi, kesikli seçim (karma, iç içe ve gizil sınıf lojit, ödeme isteği).
-
-  - Klinik: klinik tahmin modeli (kısıtlı kübik spline, bootstrap doğrulama, kalibrasyon, karar eğrisi, nomogram), cezalı Cox, RMST regresyonu, çapraz geçiş denemeleri, biyoeşdeğerlik ve kompartımansız analiz, joinpoint ve kesintili zaman serisi.
-
-  - Meta-analiz, YEM ve tasarım: oran meta-analizi (varsayılan GLMM), RI-CLPM ve gizil değişim puanı, dağılım uydurma, sağlam ANOVA, karışım deneyleri, dialel/çizgi × test/artırılmış blok/Latin kare.
-
-  - Genetik, ekoloji ve uzamsal: dizi verisiyle AMOVA ve ikili ΦST, MrBayes ile Bayesçi filogeni, DNA barkodlama ve tür sınırlandırma, dizi hizalama (isteğe bağlı GenBank), doluluk ve yakala-yeniden yakala modelleri, uzay-zaman krigingi.
-
-  - Her biri yayımlanmış kaynakla, eşdeğeri varsa SAS ile karşılaştırıldı.
-
-- **Parametre ayarları penceresi.** Şablonun bütün değişken ve seçenekleri Değişkenler, Model, Seçenekler, Gelişmiş ve Çıktı sekmelerinde ayarlanır; **Tamam ve çalıştır** analizi bu ayarlarla çalıştırır. Yan bölmede kısa özet kalır; şablona çift tıklamak pencereyi açar.
-
-- **Bütün şablonlarda tüm parametreler.** Mevcut 165 şablona alttaki yöntemin anlamlı seçenekleri eklendi (şablon başına ortalama 8 → 13,5 parametre). Varsayılan ayarlarla sonuçlar öncekiyle birebir aynıdır.
-
-- **MrBayes 3.2.9 birlikte gelir** (GNU GPL v3, ayrı program; lisans ve kaynak kodu kurulum klasöründe). Şablon özetleri MrBayes'in kendi sump/sumt çıktısıyla karşılaştırıldı.
-
-- **Yazılım ve atıflar.** Her kod ve şablon koşusunda MerQur Pro, R/Python ve kullanılan paketler sürümleri ve resmî atıflarıyla listelenir; bölüm kod eki kapalıyken de raporda kalır. `.mqs` betiği farklı paket sürümleriyle yeniden çalıştırılırsa uyarı verilir.
-
-- **Yardım → Güncellemeleri Denetle.** Yalnız tıklanınca çalışır; açılışta ağ isteği yoktur.
-
-### Değişen
-
-- Yapay zekâ **kod yardımcısı kaldırıldı.** Sonuç ve rapor yorumu yapan AI Yorumlayıcı sürer. Eski `.mqs` betiklerindeki "yapay zekâ ile üretildi" işareti okunmaya devam eder.
-
-- Lisans sözleşmesi PRO-1.1.0: kod yardımcısı maddeleri çıkarıldı, güncelleme denetimi ve MrBayes bildirimi eklendi. İlk açılışta bir kez yeniden onaylanır.
-
-- `uzay_zaman_kriging` artık gerçek uzay-zaman krigingidir; eski eş-kriging şablonunun adı `es_kriging` oldu (sonuçları değişmedi).
-
-### Düzeltilen
-
-- Şablon formunda 1e-14 gibi çok küçük ondalık değerler 0'a yuvarlanıyordu.
-
-- Bazı şablon seçenekleri ham hata veriyordu ya da İngilizce arayüzde Türkçe sütun adı gösteriyordu (her seçenek tek tek denetlendi). `cift_engel` modelinde paket hatası nedeniyle bc ve ihs dağılımları kaldırıldı.
-
-## 3.0.0 (2026-10-31) — ilk sürüm
-
-Temel sürüm: MerQur 2.3.1 (ücretsiz sürümün bütün analizleri ve düzeltmeleri dahil).
-
-### Yeni
-
-- **Kod sekmesi.** Gömülü Python 3.13 ve bilgisayardaki R 4.5.x ile kod çalıştırma. İsteğe bağlı olarak kendi Python yorumlayıcınız da kullanılabilir. Etkin veri `df` olarak gelir. Tablo, grafik ve metin çıktıları Sonuçlar, Tablo, Grafik ve Rapor sekmelerine kart olarak düşer, DOCX raporuna koduyla girer ve `.mqr` projesiyle kaydedilir.
-
-- **Güvenli çalışma.** Kod ayrı işçi süreçte çalışır. İptal 1 saniyede durdurur, zaman sınırı ayarlanabilir, işçi çökse de ana pencere ayakta kalır. Sözdizimi hatası satırında vurgulanır. Eksik pakette `install.packages(...)` / `pip install ...` önerisi gelir. Geçmiş listesi vardır.
-
-- **165 hazır şablon, 23 kategori** (139 R, 26 Python). Her şablonun parametre formu, örnek verisi ve örnek parametreleri vardır. Şablonlar kaynak paket ve yayımlanmış örneklerle doğrulanmıştır. Eşdeğer bir SAS yordamı varsa karşılaştırma için kodu gösterilir. "Şablon olarak kaydet…" ile kişisel şablonlar eklenebilir. Şablon ağacında arama kutusu vardır.
-
-- **Çok dilli şablon çıktısı.** Şablonların metin çıktıları, tablo sütun adları ve hücreleri, kod yorumları ve SAS karşılıkları Türkçe, İngilizce ve İspanyolca arayüzde o dilde gösterilir.
-
-- **`mq` modülü.** MerQur analiz motorları koddan çağrılır (`mq.ttest`, `mq.mediation` ve 12 sarmalayıcı daha, `mq.calistir`, `mq.yardim`). `mq.veriye_yaz` yeni sütunları veya süzülmüş satırları onay penceresiyle Veri sekmesine yazar ve geri alınabilir.
-
-- **Yapay zekâ kod yardımcısı.** Türkçe istekten kod üretir, hatayı açıklar ve düzeltmeyi fark görünümünde gösterir, çıktıyı yorumlar. AI Yorumlayıcı da Pro'da etkindir. Kendi API anahtarınızla çalışır. Veri hücreleri gönderilmez.
-
-- **`.mqs` kod adımı.** Arayüzde adım başına onay istenir. Başsız çalıştırmada kod adımları yalnız `--kod-izin` ile çalışır.
-
-- **Lisans.** Kişiye özel, bir yıllık, çevrimdışı doğrulanan lisans anahtarı. Lisans sahibinin adı ve kurumu Hakkında penceresinde ve rapor künyesinde görünür. MerQur Pro'ya özgü lisans sözleşmesi (EULA-PRO) vardır ve ticari kullanım serbesttir.
-
-- **Yan yana kurulum.** Ücretsiz MerQur ile aynı bilgisayarda ayrı klasör, ayar, son dosyalar listesi ve simgeyle çalışır. İlk açılışta ücretsiz sürümün dil, tema, yazı boyutu, grafik DPI ve AI sağlayıcı ayarları bir kez taşınır.
-
-- Program kendiliğinden ağa çıkmaz. Güncelleme denetimi yoktur.
-
-### Doğrulama
-
-- Derlenmiş programla duman testi: 165/165 şablon örnek veriyle çalıştı. Python ve R kod sekmeleri, `.mqs` kod adımı (izinli ve izinsiz) ve ağ isteği olmaması denetlendi.
-
-- Kod sekmesi dayanıklılık taraması: 1199 koşu, 0 ham istisna.
-
-- Kurulum dosyası ve program Ömer Kamil Örücü adına kod imzalıdır.
-
+İletişim: info@sekizgenacademy.com
