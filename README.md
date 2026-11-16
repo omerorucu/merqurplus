@@ -1,10 +1,8 @@
 <div align="center">
 
-<img src="icon/MerQurPro_icon_256.png" alt="MerQuR+" width="160" />
+<img src="icon/MerQuRPlus_icon_256.png" alt="MerQuR+" width="160" />
 
 # MerQuR+
-
-*formerly MerQur Pro · eski adı MerQur Pro*
 
 ### *Analysis beyond the form: validated templates, code and the MerQur engine in one place*
 
@@ -31,8 +29,6 @@
 ---
 
 ## 🔍 What is MerQuR+?
-
-> **MerQur Pro is now MerQuR+** (version 3.7.0). The capital R refers to the R code behind the templates. Install 3.7.0 over your current MerQur Pro: your license key, settings and templates are kept.
 
 **MerQuR+** is the licensed edition of [MerQur](https://github.com/omerorucu/merqur). It contains
 **everything in MerQur 2.7.0** (145 form-based analyses, 7 map methods, APA 7 reports) and adds
@@ -151,10 +147,10 @@ MerQuR+ is **paid software** and runs only with a **personal license key**:
 
 📧 **To obtain a license:** [info@sekizgenacademy.com](mailto:info@sekizgenacademy.com) · 🌐 [sekizgenacademy.com](https://sekizgenacademy.com)
 
-Full terms: [EULA-PRO-EN.md](EULA-PRO-EN.md) · [EULA-PRO-TR.md](EULA-PRO-TR.md)
+Full terms: [EULA-MerQuRPlus-EN.md](EULA-MerQuRPlus-EN.md) · [EULA-MerQuRPlus-TR.md](EULA-MerQuRPlus-TR.md)
 
 **Third-party software:** MerQuR+ includes MrBayes 3.2.9 (GNU GPL v3) as a separate program; its license
-and unmodified source code are in the installation folder (`pro\ucuncu_taraf\mrbayes`). R packages are not
+and unmodified source code are in the installation folder. R packages are not
 distributed with MerQuR+.
 
 The MerQuR+ source code is not public. This repository is for distribution only (installer, license
@@ -176,8 +172,6 @@ Registered work: T.C. Ministry of Culture and Tourism, registration no. **2026/1
 <summary><b>🇹🇷 Türkçe</b></summary>
 
 ## MerQuR+ nedir?
-
-> **MerQur Pro artık MerQuR+** (sürüm 3.7.0). Sondaki büyük R, şablonların R ile çalışmasından gelir. 3.7.0'ı mevcut MerQur Pro kurulumunuzun üzerine kurun: lisans anahtarınız, ayarlarınız ve şablonlarınız korunur.
 
 **MerQuR+**, [MerQur](https://github.com/omerorucu/merqur)'un lisanslı sürümüdür. **MerQur 2.7.0'ın
 tamamını** (145 form tabanlı analiz, 7 harita yöntemi, APA 7 raporları) içerir; buna **218 doğrulanmış
@@ -205,7 +199,7 @@ analiz şablonu** ve formla ifade edilemeyen analizler için bir **Kod sekmesi**
 **Kurulum ve güncelleme:** [Son sürümden](https://github.com/omerorucu/merqurplus/releases/latest) `MerQuRPlus-3.7.0-windows-x64-Setup.exe` indirilir ve çalıştırılır. Yeni sürüm mevcut kurulumun üzerine kurulur; lisans, ayarlar ve şablonlar korunur.
 
 **Lisans:** MerQuR+ ücretlidir ve kişiye özel, **bir yıllık** lisans anahtarıyla çalışır. **Ticari kullanım serbesttir.** Satış ve faturalama yetkili satıcı **Sekizgen Academy** tarafından yapılır.
-Lisans için: [info@sekizgenacademy.com](mailto:info@sekizgenacademy.com) · [sekizgenacademy.com](https://sekizgenacademy.com) · Sözleşme: [EULA-PRO-TR.md](EULA-PRO-TR.md)
+Lisans için: [info@sekizgenacademy.com](mailto:info@sekizgenacademy.com) · [sekizgenacademy.com](https://sekizgenacademy.com) · Sözleşme: [EULA-MerQuRPlus-TR.md](EULA-MerQuRPlus-TR.md)
 
 **Üçüncü taraf yazılım:** MrBayes 3.2.9 (GNU GPL v3) ayrı bir program olarak birlikte gelir; lisans metni ve değiştirilmemiş kaynak kodu kurulum klasöründedir.
 
