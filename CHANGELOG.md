@@ -1,4 +1,33 @@
-# MerQur Pro: Değişiklik Günlüğü
+# MerQuR+: Değişiklik Günlüğü (eski adı MerQur Pro)
+
+## 3.7.0 (2026-11) — MerQur Pro artık MerQuR+; MerQur 2.7.0 tabanı
+
+> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
+> — Mustafa Kemal Atatürk
+
+**MerQur Pro artık MerQuR+.** Lisanslı sürümün adı değişti; sondaki büyük R, şablonların R ile çalışmasından gelir. MerQuR+ 3.7.0 ücretsiz MerQur 2.7.0 tabanı üzerine kuruludur. 2.7.0'ın doğruluk düzeltmeleri MerQuR+'ta da vardır. Şablon kütüphanesi (218 şablon) ve Kod sekmesi değişmedi.
+
+#### Ad değişikliği
+- Pencere başlığı, açılış ekranı, Hakkında, rapor künyesi ve atıf, lisans ve güncelleme iletileri, kısayollar ve Uygulamalar listesindeki ad artık **MerQuR+**. Atıf: *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.7.0; temel sürüm 2.7.0).
+- Kurulum dosyası `MerQuRPlus-3.7.0-windows-x64-Setup.exe`, program dosyası `MerQuRPlus.exe`.
+- **Mevcut kurulumun üzerine kurulur.** Lisans anahtarınız geçerli kalır ve yeniden girilmez. Ayarlarınız, şablonlarınız ve kod işleriniz yerinde kalır. Kurulum klasörü değişmez. Yeni kurulumda varsayılan klasör `MerQuRPlus` olur. Eski "MerQur Pro" kısayolları kaldırılır, yerine "MerQuR+" kısayolları oluşturulur. Görev çubuğuna sabitlenmiş eski kısayolu yeniden sabitlemeniz gerekebilir.
+- Lisans sözleşmesinin adı **MerQuR+ Son Kullanıcı Lisans Sözleşmesi** oldu; sözleşme sürümü PRO-1.2.0. Hükümler ve lisans koşulları aynı kaldı. Sürüm numarası değiştiği için sözleşme ilk açılışta bir kez yeniden onaylanır.
+- R paketlerini kuran betiğin adı `MerQuRPlus_R_Paketleri_Kur.bat` oldu (Başlat menüsünde "MerQuR+ - R paketlerini kur").
+
+#### 2.7.0 tabanından gelenler: sonucu değiştirebilecek düzeltmeler
+Aşağıdaki analizlerde aynı veri ve seçeneklerle sonuç önceki sürümden farklı olabilir. Ayrıntılar ücretsiz MerQur 2.7.0 sürüm notundadır.
+- **Gruplu veride düzey sırası tek kurala bağlandı.** Veri sekmesinde tanımlanan sıra her yerde kullanılır. İkili sonuç analizlerinde varsayılan olay kategorisi, sıralı yanıt, Fisher kesin testi, McNemar ve Cochran Q bu kurala göre belirlenir.
+- **Çoklu karşılaştırma ve post hoc:** p değeri girişinde atlanan satırlar artık sayıyla bildirilir, bu nedenle aile büyüklüğü değişebilir. Tukey HSD tam değerden hesaplanır. Çok küçük düzeltilmiş p'ler artık 0 olarak saklanmaz. SNK ve Duncan'da adım adım kapanış uygulanır. Dunnett, ANOM ve karma desen ANOVA'da da düzeltmeler var.
+- **Tanımların birleştirilmesi:** Monte Carlo p = (b + 1)/(B + 1). ANCOVA Tip I kareler toplamında kovaryat önce girer. Glass Δ kontrol grubunu adıyla yazar. d_av bütün analizlerde aynı tanımla hesaplanır. Hotelling–Lawley F için McKeon yaklaşımı kullanılır. Anderson–Darling testi n ≥ 8 ister. Probit heterojenliği toplulaştırılmış veride hesaplanır. Çok lokasyonlu denemede F paydası beklenen kareler ortalamasına göre seçilir. Boş grup düzeyi analizden çıkarılır.
+- **Regresyon:** Ridge, Lasso ve düzenlileştirilmiş regresyonda çapraz doğrulama, düzeltilmiş R², R²(CV) ve yol durdurma değişti. Sağlam regresyonda aykırı gözlem sayısı, ikili lojistik, probit, Tobit, panel, kantil, doğrusal olmayan regresyon, yanıt yüzeyi, koşullu lojit ve eğilim skoru analizlerinde de düzeltmeler var.
+- **Sağkalım ve zaman serisi:** Cox ve zamana bağlı Cox, parametrik sağkalım (tam ayrışma dahil), rakip riskler, aralık sansürlü sağkalım, gamma kırılganlık, STL, Mann–Kendall (Buishand ve SNHT dahil), ETS ve ARIMA.
+- **Karma modeller, GAM ve GEE:** GAM eğrileri sıfır ortalamaya merkezlenir ve terimler Wood (2013) testiyle sınanır. GEE'de QIC tanımı düzeltildi. GLMM ve iç içe karma modelde de düzeltmeler var.
+- **Çok değişkenli analiz ve makine öğrenmesi:** MANOVA, kanonik korelasyon, açıklayıcı faktör analizi (RMSR), yapısal eşitlik modelinde bootstrap, gizil sınıf analizi, diskriminant analizi, sınıflama analizleri, karmaşıklık matrisi, ROC ve TSS, k-en yakın komşu, gradyan artırma, t-SNE, Naive Bayes'te kullanıcı önseli ve çoklu atama (havuzlanmış R² güven aralığı dahil).
+- **Öteki analizler:** tanımlayıcı istatistiklerde yüzdelik tanımı, Bayesçi t testi ve Bayesçi ANOVA, korelasyon ve Bayesçi korelasyon, Bland-Altman, binom testi, etki büyüklüğü, bootstrap güven aralığı (tabakalı dahil), permütasyon testi, sıra temelli testler (Mann-Whitney U, Wilcoxon, Kruskal-Wallis, Friedman), Cohen kappa, Likert analizi ve sabit ya da dejenere veri durumları.
+
+#### 2.7.0 tabanından gelenler: gösterim ve iletiler
+- Tablolardaki güven aralığı sütun başlıkları seçilen güven düzeyini gösterir (ör. "%90 GA (alt)"). p değerlerinin biçimi bütün tablolarda aynıdır.
+- Sonuç metinleri, uyarılar ve hata iletileri üç dilde düzeltildi. Atlanan satırlar ve kullanılan tanımlar çıktıda adıyla yazılır.
 
 ## 3.6.0 (2026-11) — Fraktal ve uzun bellek çözümlemeleri, parametrik ROC, gruplara göre referans aralığı, küme örneklemesi; MerQur 2.6.0 tabanı
 
