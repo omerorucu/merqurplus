@@ -17,10 +17,9 @@ hükümlerini okuduğunuzu, anladığınızı ve bağlayıcı olduğunu kabul et
 sayılırsınız. Bu hükümlere uymayı kabul etmiyorsanız MerQuR+'yı
 yüklememeli ve kullanmamalısınız.
 
-MerQuR+, ücretsiz MerQur sürümünden ayrı, **ücretli** ve **lisans
-anahtarı gerektiren** bir sürümdür. Ücretsiz MerQur sürümü kendi Son
-Kullanıcı Lisans Sözleşmesi'ne tabidir; bu Sözleşme yalnız MerQuR+'yı
-kapsar.
+MerQuR+, MerQur'un temel sürümünden ayrı, **lisans anahtarı ile çalışan**
+bir sürümdür. MerQur'un temel sürümü kendi Son Kullanıcı Lisans
+Sözleşmesi'ne tabidir; bu Sözleşme yalnız MerQuR+'yı kapsar.
 
 ---
 
@@ -36,12 +35,12 @@ geçerli bir MerQuR+ lisans anahtarı alan gerçek kişi. Kurum adına
 yapılan lisanslamada, anahtar kurumun bildirdiği ve anahtarda adı kayıtlı
 olan gerçek kişi için düzenlenir.
 
-**c)** **Yetkili Satıcı:** MerQuR+ lisansının satışı, faturalanması ve
-bedelin tahsili, Lisans Veren'in yetkilendirdiği Sekizgen Academy
-("Yetkili Satıcı") tarafından yapılır. Yetkili Satıcının ticari unvanı ve
-adresi lisans teklifinde veya faturada bildirilir. Yetkili Satıcı aracılığıyla
-yapılan satış, Lisans Veren'in telif hakkı sahipliğini ve bu Sözleşme'deki
-haklarını değiştirmez.
+**c)** **Yetkili Dağıtıcı:** MerQuR+ lisansının dağıtımı ve lisans
+anahtarının verilmesi, Lisans Veren'in yetkilendirdiği Sekizgen Academy
+("Yetkili Dağıtıcı") tarafından yapılabilir. Yetkili Dağıtıcının ticari
+unvanı ve adresi lisans verilirken bildirilir. Yetkili Dağıtıcı aracılığıyla
+yapılan dağıtım, Lisans Veren'in telif hakkı sahipliğini ve bu
+Sözleşme'deki haklarını değiştirmez.
 
 ---
 
@@ -82,8 +81,7 @@ uzatmaya çalışmak dahil) lisansın derhal feshi sebebidir.
 
 ### 3.1 Verilen Haklar
 
-Lisans Veren, Kullanıcıya, lisans bedelinin ödenmesi ve bu Sözleşme'ye
-uyulması koşuluyla, MerQuR+ için **münhasır olmayan** (non-exclusive),
+Lisans Veren, Kullanıcıya, bu Sözleşme'ye uyulması koşuluyla, MerQuR+ için **münhasır olmayan** (non-exclusive),
 **devredilemez** (non-transferable), **süreli** (1 yıl), **kişiye özel**
 ve **dünya genelinde geçerli** bir kullanım lisansı verir. Lisans
 aşağıdaki kullanımları kapsar:
@@ -98,7 +96,7 @@ derslerinde öğrenci ve eğitmen kullanımında,
 **c) Bireysel kullanım** — bağımsız araştırmacıların bilimsel veri
 analizi ve yayın hazırlığı dahil kişisel çalışmalarında,
 
-**d) Ticari kullanım** — danışmanlık, ücretli analiz ve raporlama
+**d) Ticari kullanım** — danışmanlık, analiz ve raporlama
 hizmetleri dahil, Madde 7'deki sınırlar içinde.
 
 ### 3.2 Kullanıcı ve Bilgisayar Sınırı
@@ -115,15 +113,18 @@ sayılan kullanımlar açıkça yasaktır.**
 
 ---
 
-## 4. LİSANS BEDELİ
+## 4. LİSANS ANAHTARININ VERİLMESİ VE KOŞULLARI
 
-**a)** MerQuR+ lisansı ücretlidir. Lisans bedeli, ödeme biçimi,
-yenileme bedeli ve varsa iade koşulları, lisans verilirken Kullanıcıya
-yazılı olarak (teklif, fatura veya e-posta ile) Lisans Veren veya
-Yetkili Satıcı tarafından bildirilir.
+**a)** MerQuR+ yalnız geçerli bir lisans anahtarı ile çalışır. Lisans
+anahtarının verilme, yenileme ve varsa diğer koşulları, lisans
+verilirken Kullanıcıya yazılı olarak (e-posta ile) Lisans Veren veya
+Yetkili Dağıtıcı tarafından bildirilir.
 
-**b)** Lisans bedelinin ödenmemesi hâlinde lisans anahtarı verilmez;
-verilmiş olan lisans Lisans Veren tarafından feshedilebilir.
+**b)** Bildirilen koşullara uyulmaması hâlinde lisans anahtarı
+verilmez; verilmiş olan lisans Lisans Veren tarafından feshedilebilir
+ya da yenilenmiş bir lisans anahtarı istenebilir. Lisans Veren, bir
+program sürümünden itibaren daha önce verilmiş lisans anahtarlarının
+geçerliliğini sona erdirip yenilenmiş anahtar isteyebilir.
 
 **c)** Tüketici sıfatını taşıyan Kullanıcıların 6502 sayılı Tüketicinin
 Korunması Hakkında Kanun ve ilgili mevzuattan doğan zorunlu hakları
@@ -142,7 +143,7 @@ APA 7. baskı formatında aşağıdaki atfı yapmakla yükümlüdür:
 > yazılımı]. https://doi.org/10.53463/merqur.2026001
 
 X.Y.Z yerine analizde kullanılan MerQuR+ sürümü, A.B.C yerine bu
-sürümün dayandığı MerQur temel sürümü yazılır (örnek: Sürüm 3.7.0; temel
+sürümün dayandığı MerQur temel sürümü yazılır (örnek: Sürüm 3.8.0; temel
 sürüm 2.7.0). Yardım → Hakkında penceresinde çalışan sürüm için hazır atıf
 metni gösterilir.
 
@@ -209,7 +210,7 @@ devretmek.
 ## 7. TİCARİ KULLANIM
 
 **a)** Geçerli bir MerQuR+ lisansı **ticari kullanımı kapsar**. Lisans
-sahibi MerQuR+'yı danışmanlık hizmetlerinde, ücretli analiz ve
+sahibi MerQuR+'yı danışmanlık hizmetlerinde, analiz ve
 raporlama işlerinde ve kendi ticari faaliyetlerinde kullanabilir. Bu
 kullanım için ayrıca bir Ticari Kullanım Sözleşmesi gerekmez.
 
@@ -325,8 +326,9 @@ vermez. Bu garanti reddi şunları içerir ancak bunlarla sınırlı değildir:
 Yazılımın kullanımından doğan doğrudan veya dolaylı zararlar (veri
 kaybı, yanlış analiz sonucu, hatalı yayın veya rapor, akademik itibar
 kaybı, gelir kaybı vb.) için Lisans Veren'in toplam sorumluluğu, zorunlu
-yasal hükümler saklı kalmak kaydıyla, **Kullanıcının ilgili lisans
-dönemi için ödediği bedelle sınırlıdır**.
+yasal hükümler saklı kalmak kaydıyla, **kasıt ve ağır kusur dışında yalnızca
+doğrudan zararlarla sınırlıdır; dolaylı zararlardan Lisans Veren sorumlu
+tutulamaz**.
 
 ### 11.3 Kullanıcının Doğrulama Yükümlülüğü
 
@@ -442,7 +444,7 @@ yürürlükte kalmaya devam eder.
 Sözleşme ile ilgili her türlü soru, lisans ve yenileme talebi, kurum
 lisansı talebi veya hata bildirimi için:
 
-- **E-posta (yazılım, hata bildirimi, lisans, yenileme, satış ve fatura; Sekizgen Academy):** `info@sekizgenacademy.com`
+- **E-posta (yazılım, hata bildirimi, lisans ve yenileme; Sekizgen Academy):** `info@sekizgenacademy.com`
 - **Web:** https://sekizgenacademy.com
 
 ---
