@@ -1,11 +1,29 @@
 # MerQuR+: Değişiklik Günlüğü
 
+## 3.8.0 (2026-11-20)
+
+> "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
+> — Mustafa Kemal Atatürk
+
+MerQuR+, MerQur 2.7.0 temel sürümü üzerine kurulu, lisans anahtarıyla çalışan bir analiz ortamıdır. Bu sürüm şablon kütüphanesinin satır satır incelenmesinden gelen düzeltmeleri, yeni form seçeneklerini ve yeni bir şablonu içerir. **Bazı şablonların sonuçları önceki sürümden farklı olabilir**; her değişiklik şablon şablon [CHANGELOG-3.8.0-ayrinti.md](CHANGELOG-3.8.0-ayrinti.md) dosyasında belirtilmiştir.
+
+#### Yeni
+- **NIST SP 800-22 rastgelelik testleri** şablonu: 15 test ve ikinci düzey çözümleme (geçen dizi oranı, p-değerlerinin tekdüzeliği). Çalıştırılacak testler onay kutularıyla seçilir; varsayılan hepsi.
+- **Şablon sayısı 219** (190 R, 29 Python), 24 kategori, 3 143 ayarlanabilir parametre.
+- **Kurulum programı R'yi tanır:** yüklü R'yi ve sürümünü bildirir; istenirse en son R'yi, Rtools'u (brms ve blavaan modellerini derlemek için) ve şablonların kullandığı R paketlerini indirip kurar, ardından MerQuR+'ı kurar. Paketler toplu ve paralel kurulur. Bu adım atlanabilir; sessiz kurulumda `/RKUR=1` ile açılır.
+
+#### Düzeltmeler ve yeni seçenekler
+- Şablonların çoğunda düzey sırası, ondalık ayırıcı (`;` ⇒ virgül), tohum alanı (0 ya da boş ⇒ oturum tohumu) ve eksik veri davranışı ortak kurallara bağlandı.
+- Yeni seçeneklerin varsayılanı önceki davranıştır. Sonucu değiştiren düzeltmeler (örneğin yapısal konu modeli, gizil geçiş, kademeli fark-farkı, test eşitleme, kısıtlı ordinasyon, Markov rejim, yapısal VAR) ayrıntı dosyasında ilgili satırda belirtilmiştir.
+- Büyük veri dosyalarında (örneğin 1 milyon satır) Veri sekmesi artık donmaz: tablo en çok ilk 10.000 satırı gösterir, analizler verinin tamamını kullanır.
+- Python 3.11 ile uyumsuz bir f-string (PERMANOVA/Mantel şablonu) ve ağ meta-analizinde eksik çalışma adı düzeltildi.
+
 ## 3.7.0 (2026-11-16) — ilk sürüm
 
 > "Çalışmadan, yorulmadan, üretmeden rahat yaşamak isteyen toplumlar; önce haysiyetlerini sonra hürriyetlerini ve daha sonra da istiklal ve istikballerini kaybetmeye mahkûmdurlar."
 > — Mustafa Kemal Atatürk
 
-MerQuR+, ücretsiz MerQur 2.7.0 temel sürümü üzerine kurulu, lisanslı bir analiz ortamıdır. Ücretsiz MerQur 2.7.0'ın bütün analizlerini ve düzeltmelerini içerir; bunlara doğrulanmış analiz şablonları ve Python/R ile kod çalıştırma ekler. Sondaki büyük R, şablonların R ile çalışmasından gelir.
+MerQuR+, MerQur 2.7.0 temel sürümü üzerine kurulu, lisans anahtarıyla çalışan bir analiz ortamıdır. MerQur 2.7.0'ın bütün analizlerini ve düzeltmelerini içerir; bunlara doğrulanmış analiz şablonları ve Python/R ile kod çalıştırma ekler. Sondaki büyük R, şablonların R ile çalışmasından gelir.
 
 #### Şablonlar
 - **218 doğrulanmış şablon, 24 kategori** (190 R, 28 Python). Her şablonun parametre formu, örnek verisi ve örnek ayarları vardır. Şablonlar yayımlanmış kaynaklarla, eşdeğer bir yordam varsa SAS ile karşılaştırıldı; SAS karşılığının kodu da gösterilir. "Şablon olarak kaydet…" ile kişisel şablon eklenir; şablon ağacında arama kutusu vardır. Öne çıkanlar:
@@ -36,7 +54,7 @@ MerQuR+, ücretsiz MerQur 2.7.0 temel sürümü üzerine kurulu, lisanslı bir a
 
 #### Lisans, kurulum ve güncelleme
 - Kişiye özel, bir yıllık, çevrimdışı doğrulanan lisans anahtarı. Lisans sahibinin adı ve kurumu Hakkında penceresinde ve rapor künyesinde görünür. MerQuR+ Son Kullanıcı Lisans Sözleşmesi geçerlidir; ticari kullanım serbesttir.
-- Ücretsiz MerQur ile aynı bilgisayarda **yan yana** çalışır: ayrı klasör, ayarlar, son dosyalar listesi ve simge. İlk açılışta ücretsiz sürümün dil, tema, yazı boyutu, grafik DPI ve AI sağlayıcı ayarları bir kez aktarılır.
+- MerQur ile aynı bilgisayarda **yan yana** çalışır: ayrı klasör, ayarlar, son dosyalar listesi ve simge. İlk açılışta MerQur'un dil, tema, yazı boyutu, grafik DPI ve AI sağlayıcı ayarları bir kez aktarılır.
 - Program kendiliğinden ağa çıkmaz. **Yardım → Güncellemeleri Denetle** yalnız tıklanınca çalışır.
 - Kurulum dosyası `MerQuRPlus-3.7.0-windows-x64-Setup.exe`; kurulum dosyası ve program Ömer Kamil Örücü adına kod imzalıdır.
 
