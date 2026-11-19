@@ -19,8 +19,8 @@ to be bound by all terms of this End User License Agreement
 ("Agreement"). If you do not agree to these terms, you must not install
 or use MerQuR+.
 
-MerQuR+ is a **paid** edition that **requires a license key** and is
-separate from the free edition of MerQur. The free edition of MerQur is
+MerQuR+ is an edition that **works only with a license key** and is
+separate from the base edition of MerQur. The base edition of MerQur is
 governed by its own End User License Agreement; this Agreement covers
 MerQuR+ only.
 
@@ -40,13 +40,13 @@ Where licensing is arranged on behalf of an institution, the key is
 issued for the natural person designated by the institution and named
 in the key.
 
-**c)** **Authorized Reseller:** The sale and invoicing of the MerQuR+
-license and the collection of the fee are carried out by Sekizgen
-Academy, authorized by the Licensor ("Authorized Reseller"). The trade
-name and address of the Authorized Reseller are stated in the license
-quotation or on the invoice. A sale
-made through the Authorized Reseller does not change the Licensor's
-copyright ownership or the Licensor's rights under this Agreement.
+**c)** **Authorized Distributor:** The distribution of the MerQuR+
+license and the issuing of license keys may be carried out by Sekizgen
+Academy, authorized by the Licensor ("Authorized Distributor"). The trade
+name and address of the Authorized Distributor are stated when the
+license is granted. Distribution through the Authorized Distributor does
+not change the Licensor's copyright ownership or the Licensor's rights
+under this Agreement.
 
 ---
 
@@ -87,7 +87,7 @@ termination of the license.
 
 ### 3.1 Granted Rights
 
-Subject to payment of the license fee and compliance with this
+Subject to compliance with this
 Agreement, the Licensor grants the User a **non-exclusive**,
 **non-transferable**, **time-limited** (1 year), **personal**, and
 **worldwide** license to use MerQuR+. The license covers the
@@ -103,7 +103,7 @@ statistics, data analysis, and survey design,
 **c) Individual use** — in personal work, including scientific data
 analysis and publication preparation by independent researchers,
 
-**d) Commercial use** — including consulting and paid analysis and
+**d) Commercial use** — including consulting, analysis and
 reporting services, within the limits of Article 7.
 
 ### 3.2 User and Computer Limit
@@ -120,15 +120,18 @@ Article 6 are explicitly prohibited.**
 
 ---
 
-## 4. LICENSE FEE
+## 4. ISSUING OF THE LICENSE KEY AND ITS CONDITIONS
 
-**a)** The MerQuR+ license is paid. The license fee, method of
-payment, renewal fee, and refund conditions, if any, are communicated to
-the User in writing (by quotation, invoice, or email) by the Licensor
-or the Authorized Reseller when the license is granted.
+**a)** MerQuR+ works only with a valid license key. The conditions for
+issuing and renewing the license key and any other conditions are
+communicated to the User in writing (by email) by the Licensor or the
+Authorized Distributor when the license is granted.
 
-**b)** If the license fee is not paid, no license key is issued; a
-license already granted may be terminated by the Licensor.
+**b)** If the communicated conditions are not met, no license key is
+issued; a license already granted may be terminated by the Licensor or
+a renewed license key may be requested. Starting from a given program
+version, the Licensor may end the validity of previously issued license
+keys and require a renewed key.
 
 **c)** The mandatory rights of Users who qualify as consumers under
 Law No. 6502 on Consumer Protection and related legislation are
@@ -149,7 +152,7 @@ MerQuR+:
 
 Replace X.Y.Z with the MerQuR+ version used in the analysis and A.B.C
 with the MerQur base version on which that version is built (example:
-Version 3.7.0; base version 2.7.0). Help → About shows the ready-made
+Version 3.8.0; base version 2.7.0). Help → About shows the ready-made
 citation for the running version.
 
 BibTeX entry:
@@ -216,7 +219,7 @@ parties.
 ## 7. COMMERCIAL USE
 
 **a)** A valid MerQuR+ license **covers commercial use**. The license
-holder may use MerQuR+ in consulting services, in paid analysis and
+holder may use MerQuR+ in consulting services, in analysis and
 reporting work, and in his or her own commercial activities. No separate
 Commercial Use Agreement is required for such use.
 
@@ -333,8 +336,9 @@ warranty disclaimer includes but is not limited to:
 The Licensor's total liability for direct or indirect damages (data
 loss, incorrect analysis results, faulty publication or report, loss of
 academic reputation, loss of revenue, etc.) arising from the use of the
-software is, subject to mandatory statutory provisions, **limited to the
-fee paid by the User for the relevant license term**.
+software is, subject to mandatory statutory provisions, **limited to direct
+damages, except in cases of intent or gross negligence; the Licensor is not
+liable for indirect damages**.
 
 ### 11.3 User's Verification Obligation
 
@@ -454,7 +458,7 @@ the other provisions shall continue to remain in full force and effect.
 For any questions about the Agreement, license and renewal requests,
 institutional license requests, or bug reports:
 
-- **Email (software, bug reports, licenses, renewals, sales and invoicing; Sekizgen Academy):** `info@sekizgenacademy.com`
+- **Email (software, bug reports, licenses and renewals; Sekizgen Academy):** `info@sekizgenacademy.com`
 - **Website:** https://sekizgenacademy.com
 
 ---
