@@ -152,7 +152,7 @@ MerQuR+:
 
 Replace X.Y.Z with the MerQuR+ version used in the analysis and A.B.C
 with the MerQur base version on which that version is built (example:
-Version 3.8.0; base version 2.7.0). Help → About shows the ready-made
+Version 3.9.0; base version 2.9.0). Help → About shows the ready-made
 citation for the running version.
 
 BibTeX entry:
