@@ -15,14 +15,14 @@
 
 ---
 
-![Version](https://img.shields.io/badge/version-3.8.0-5B21B6?style=flat-square)
-![Base](https://img.shields.io/badge/base%20MerQur-2.7.0-7C3AED?style=flat-square)
+![Version](https://img.shields.io/badge/version-3.9.0-5B21B6?style=flat-square)
+![Base](https://img.shields.io/badge/base%20MerQur-2.9.0-7C3AED?style=flat-square)
 ![Platform](https://img.shields.io/badge/platform-Windows%2010%20%7C%2011%20x64-blue?style=flat-square)
 ![Languages](https://img.shields.io/badge/i18n-TR%20%7C%20EN%20%7C%20ES-success?style=flat-square)
-![Templates](https://img.shields.io/badge/validated%20templates-219%20in%2024%20categories-5B21B6?style=flat-square)
+![Templates](https://img.shields.io/badge/validated%20templates-226%20in%2025%20categories-5B21B6?style=flat-square)
 ![License](https://img.shields.io/badge/license-key%20required-orange?style=flat-square)
 
-**[⬇ Download MerQuR+ 3.8.0 for Windows](https://github.com/omerorucu/merqurplus/releases/latest)**
+**[⬇ Download MerQuR+ 3.9.0 for Windows](https://github.com/omerorucu/merqurplus/releases/latest)**
 
 </div>
 
@@ -31,8 +31,8 @@
 ## 🔍 What is MerQuR+?
 
 **MerQuR+** is built on [MerQur](https://github.com/omerorucu/merqur) and works with a license key. It contains
-**everything in MerQur 2.7.0** (145 form-based analyses, 7 map methods, APA 7 reports) and adds
-**219 validated analysis templates** and a **Code tab** for analyses that a form cannot express:
+**everything in MerQur 2.9.0** (170 form-based analyses, 7 map methods, APA 7 reports) and adds
+**226 validated analysis templates** and a **Code tab** for analyses that a form cannot express:
 advanced econometrics, clinical prediction, phylogenetics, forest tree breeding, custom models, simulations and more.
 
 Every template opens with a **parameter window** that exposes all meaningful options of the underlying
@@ -41,7 +41,7 @@ report with a **"Software and citations"** section, and are saved with the proje
 
 <div align="center">
 
-| **219** | **24** | **3 143** | **APA 7** |
+| **226** | **25** | **3 340** | **APA 7** |
 |:---:|:---:|:---:|:---:|
 | Validated<br>templates | Template<br>categories | Adjustable<br>parameters | Reports with software<br>citations |
 
@@ -54,7 +54,7 @@ Start-menu icon. Installing or removing one does not affect the other.
 
 ## ✨ What MerQuR+ adds
 
-### 📚 Template library: 219 validated analyses
+### 📚 Template library: 226 validated analyses
 - Each template was **validated against a published source** (package vignette, textbook table or article)
   and, where an equivalent procedure exists, **against SAS** (typical differences 1e-6 to 1e-12). Where R
   and SAS define a quantity differently, the template states which definition it uses.
@@ -67,11 +67,12 @@ Start-menu icon. Installing or removing one does not affect the other.
 | Category | # | Examples |
 |---|:---:|---|
 | Genetics & genomics | 32 | provenance–progeny trials, heritability and genetic correlations, selection indices, QST–FST, seed orchard diversity, clonal and multi-site trials, AMOVA (genotypes and DNA sequences, ΦST), Bayesian phylogenetics with MrBayes, DNA barcoding and species delimitation, sequence alignment, haplotype networks, neutrality tests, GWAS, QTL mapping |
-| Causal inference & panel econometrics | 18 | double machine learning, AIPW, TMLE, synthetic control, staggered DiD, regression discontinuity, second-generation panel tests (CD, CIPS, Pedroni, Kao, Dumitrescu–Hurlin, CCE/AMG) |
-| Regression & efficiency models | 17 | stochastic frontier analysis, data envelopment analysis and Malmquist index, discrete choice (mixed, nested, latent-class logit, WTP), distribution fitting, robust ANOVA, beta regression, hurdle |
-| Time series | 20 | multifractal DFA (MFDFA), fractal dimension and Hurst exponent estimators, structural VAR, extended GARCH, ARDL / NARDL bounds test, structural-break unit roots, Toda–Yamamoto, joinpoint and interrupted time series, ARFIMA, DCC-GARCH |
+| Causal inference & panel econometrics | 19 | double machine learning, AIPW, TMLE, synthetic control, staggered DiD, regression discontinuity, second-generation panel tests (CD, CIPS, Pedroni, Kao, Dumitrescu–Hurlin, CCE/AMG), additional panel tests (Mundlak/Chamberlain, panel IV, Driscoll–Kraay, double-clustered and PCSE/FGLS standard errors, Hausman, Fisher–Johansen) |
+| Regression & efficiency models | 18 | stochastic frontier analysis, data envelopment analysis and Malmquist index, discrete choice (mixed, nested, latent-class logit, WTP), distribution fitting, robust ANOVA, beta regression, hurdle, fuzzy linear and nonlinear regression |
+| Time series | 24 | multifractal DFA (MFDFA), fractal dimension and Hurst exponent estimators, structural VAR, extended GARCH, ARDL / NARDL bounds test, structural-break unit roots, Toda–Yamamoto, joinpoint and interrupted time series, ARFIMA, DCC-GARCH, threshold regression and threshold VAR, unit root family (Phillips–Perron, KPSS, Fourier ADF/KPSS), cointegration with breaks and VECM, Fourier Toda–Yamamoto causality |
 | Mixed models | 15 | factor analytic models for multi-environment trials, bioequivalence and non-compartmental PK analysis, ordinal mixed models, glmmTMB families, nlme |
 | Survival | 14 | clinical prediction models (TRIPOD: splines, bootstrap validation, calibration, decision curves, nomogram), penalized Cox, RMST regression, multi-state models |
+| Finance | 1 | conditional extreme value VaR and expected shortfall (GARCH, GARCH-POT; Kupiec, Christoffersen, Basel, McNeil–Frey and Acerbi–Szekely tests) |
 | Multivariate | 11 | Westfall–Young resampling tests, Bayesian networks, compositional and functional data |
 | Psychometrics | 10 | network psychometrics, cognitive diagnosis, many-facet Rasch, DIF |
 | Structural equation models | 9 | RI-CLPM and latent change scores, Bayesian SEM, ESEM, growth mixture |
@@ -118,7 +119,7 @@ In the GUI each code step asks for approval; headless runs execute code steps on
 | **Operating system** | Windows 10 or 11, 64-bit |
 | **Disk** | about 1.5 GB |
 | **Memory** | 8 GB recommended |
-| **R (recommended)** | R 4.3 or newer, needed for the R templates (190 of 219). The installer can detect R, download the latest R and **Rtools** (needed to compile brms and blavaan models) and install the R packages the templates use. This takes some time and needs an internet connection; you can skip it and install them later. |
+| **R (recommended)** | R 4.3 or newer, needed for the R templates (196 of 226). The installer can detect R, download the latest R and **Rtools** (needed to compile brms and blavaan models) and install the R packages the templates use. This takes some time and needs an internet connection; you can skip it and install them later. |
 | **Internet** | needed only during installation (R, Rtools and R packages). Afterwards MerQuR+ connects only when you send an AI request or start **Help → Check for updates** yourself. |
 
 macOS and Linux builds of MerQuR+ are not available yet. MerQur runs on all three.
@@ -127,7 +128,7 @@ macOS and Linux builds of MerQuR+ are not available yet. MerQur runs on all thre
 
 ## 📥 Installation and updates
 
-1. Download **`MerQuRPlus-3.8.0-windows-x64-Setup.exe`** from the [latest release](https://github.com/omerorucu/merqurplus/releases/latest).
+1. Download **`MerQuRPlus-3.9.0-windows-x64-Setup.exe`** from the [latest release](https://github.com/omerorucu/merqurplus/releases/latest).
 2. Run the installer. The publisher is shown as **Ömer Kamil Örücü** (code-signed).
 3. On first start, read and accept the **MerQuR+ license agreement**, then enter your **license key**.
 
@@ -159,7 +160,7 @@ text, release notes).
 
 ## 📖 Citation
 
-> Örücü, Ö. K. (2026). *MerQuR+: Integrated Academic Data Analysis and Reporting Platform* (Version 3.8.0; base version 2.7.0) [Computer software]. https://doi.org/10.53463/merqur.2026001
+> Örücü, Ö. K. (2026). *MerQuR+: Integrated Academic Data Analysis and Reporting Platform* (Version 3.9.0; base version 2.9.0) [Computer software]. https://doi.org/10.53463/merqur.2026001
 
 Please also cite the R packages and programs listed in the "Software and citations" section of your results.
 
@@ -172,37 +173,37 @@ Registered work: T.C. Ministry of Culture and Tourism, registration no. **2026/1
 
 ## MerQuR+ nedir?
 
-**MerQuR+**, [MerQur](https://github.com/omerorucu/merqur) üzerine kuruludur ve lisans anahtarıyla çalışır. **MerQur 2.7.0'ın
-tamamını** (145 form tabanlı analiz, 7 harita yöntemi, APA 7 raporları) içerir; buna **219 doğrulanmış
+**MerQuR+**, [MerQur](https://github.com/omerorucu/merqur) üzerine kuruludur ve lisans anahtarıyla çalışır. **MerQur 2.9.0'ın
+tamamını** (170 form tabanlı analiz, 7 harita yöntemi, APA 7 raporları) içerir; buna **226 doğrulanmış
 analiz şablonu** ve formla ifade edilemeyen analizler için bir **Kod sekmesi** ekler.
 
 **MerQuR+'nın getirdikleri**
 
-- **219 doğrulanmış şablon, 24 kategori:** her şablon yayımlanmış bir kaynakla, eşdeğer yordam varsa SAS ile karşılaştırıldı. Öne çıkanlar:
-  - ekonometri: ARDL/NARDL, kırılmalı birim kök, ikinci kuşak panel, SFA, DEA, kesikli seçim;
+- **226 doğrulanmış şablon, 25 kategori:** her şablon yayımlanmış bir kaynakla, eşdeğer yordam varsa SAS ile karşılaştırıldı. Öne çıkanlar:
+  - ekonometri ve finans: ARDL/NARDL, kırılmalı birim kök, eşikli regresyon ve eşikli VAR, kırılmalı eşbütünleşme, ikinci kuşak ve ek panel testleri, SFA, DEA, kesikli seçim, bulanık regresyon, koşullu aşırı değer VaR/ES;
   - klinik: klinik tahmin modeli, cezalı Cox, RMST, çapraz geçiş, biyoeşdeğerlik;
   - orman ağacı ıslahı ve nicel genetik: orijin–döl denemesi, kalıtım derecesi ve genetik korelasyon, seleksiyon indeksleri, QST–FST, tohum bahçesinde çeşitlilik, klon ve çok lokasyonlu denemeler;
   - genetik ve filocoğrafya: dizi verisiyle AMOVA, MrBayes ile Bayesçi filogeni, DNA barkodlama, hizalama;
   - ekoloji: çevresel gradyan boyunca topluluk ağırlıklı ortalamalar (özellik CWM, satır/sütun/max permütasyon testleri), PERMANOVA ve yayılım (PERMDISP), doluluk modelleri;
   - zaman serisi ve tanı testleri: çok fraktallı DFA (MFDFA), fraktal boyut ve Hurst üssü kestiricileri, parametrik (binormal) ve ROC-GLM ROC, gruplara göre referans aralığı, küme örneklemesi;
   - diğer: oran meta-analizi, RI-CLPM, dialel, karışım deneyleri, uzay-zaman krigingi.
-- **Parametre ayarları penceresi:** yöntemin anlamlı bütün seçenekleri Değişkenler, Model, Seçenekler, Gelişmiş ve Çıktı sekmelerinde ayarlanabilir. Toplam 3.044 parametre var. **Tamam ve çalıştır** analizi bu ayarlarla çalıştırır.
+- **Parametre ayarları penceresi:** yöntemin anlamlı bütün seçenekleri Değişkenler, Model, Seçenekler, Gelişmiş ve Çıktı sekmelerinde ayarlanabilir. Toplam 3.340 parametre var. **Tamam ve çalıştır** analizi bu ayarlarla çalıştırır.
 - **MrBayes 3.2.9 birlikte gelir:** Bayesçi filogeni ek kurulum gerektirmez.
 - **Yazılım ve atıflar:** her koşuda MerQuR+, R/Python ve kullanılan paketler sürümleri ve resmî atıflarıyla listelenir; makalenin yöntem bölümüne doğrudan yapıştırılabilir. `.mqs` betiği farklı paket sürümleriyle yeniden çalıştırılırsa uyarı verilir.
 - **Kod sekmesi:** gömülü Python 3.13, bilgisayardaki R 4.5.x; `mq` modülüyle MerQur motorları koddan çağrılır.
 - **AI Yorumlayıcı:** kendi API anahtarınızla sonuç ve rapor yorumu. Veri hücreleri gönderilmez; yapay zekâ sonuçları hesaplamaz ya da değiştirmez.
 - MerQur ile **yan yana** kurulur.
 
-**Sistem gereksinimleri:** Windows 10/11 64 bit, yaklaşık 1,5 GB disk. R şablonları (219'un 190'ı) için R 4.3 ya da üstü gerekir; kurulum programı R'yi, Rtools'u ve şablonların kullandığı R paketlerini indirip kurabilir (internet bağlantısı gerekir; atlanabilir). Program yalnız sizin gönderdiğiniz AI isteklerinde ve **Yardım → Güncellemeleri Denetle** ile ağa çıkar.
+**Sistem gereksinimleri:** Windows 10/11 64 bit, yaklaşık 1,5 GB disk. R şablonları (226'nın 196'sı) için R 4.3 ya da üstü gerekir; kurulum programı R'yi, Rtools'u ve şablonların kullandığı R paketlerini indirip kurabilir (internet bağlantısı gerekir; atlanabilir). Program yalnız sizin gönderdiğiniz AI isteklerinde ve **Yardım → Güncellemeleri Denetle** ile ağa çıkar.
 
-**Kurulum ve güncelleme:** [Son sürümden](https://github.com/omerorucu/merqurplus/releases/latest) `MerQuRPlus-3.8.0-windows-x64-Setup.exe` indirilir ve çalıştırılır. Yeni sürüm mevcut kurulumun üzerine kurulur; lisans, ayarlar ve şablonlar korunur.
+**Kurulum ve güncelleme:** [Son sürümden](https://github.com/omerorucu/merqurplus/releases/latest) `MerQuRPlus-3.9.0-windows-x64-Setup.exe` indirilir ve çalıştırılır. Yeni sürüm mevcut kurulumun üzerine kurulur; lisans, ayarlar ve şablonlar korunur.
 
 **Lisans:** MerQuR+ kişiye özel, **bir yıllık** lisans anahtarıyla çalışır. Lisans, yetkili dağıtıcı **Sekizgen Academy** aracılığıyla verilir.
 Lisans için: [info@sekizgenacademy.com](mailto:info@sekizgenacademy.com) · [sekizgenacademy.com](https://sekizgenacademy.com) · Sözleşme: [EULA-MerQuRPlus-TR.md](EULA-MerQuRPlus-TR.md)
 
 **Üçüncü taraf yazılım:** MrBayes 3.2.9 (GNU GPL v3) ayrı bir program olarak birlikte gelir; lisans metni ve değiştirilmemiş kaynak kodu kurulum klasöründedir.
 
-**Atıf:** Örücü, Ö. K. (2026). *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.8.0; temel sürüm 2.7.0) [Bilgisayar yazılımı]. https://doi.org/10.53463/merqur.2026001 — Sonuçlardaki "Yazılım ve atıflar" bölümünde listelenen paketlere de atıf yapılması rica olunur.
+**Atıf:** Örücü, Ö. K. (2026). *MerQuR+: Bütünleşik Akademik Veri Analizi ve Raporlama Platformu* (Sürüm 3.9.0; temel sürüm 2.9.0) [Bilgisayar yazılımı]. https://doi.org/10.53463/merqur.2026001 — Sonuçlardaki "Yazılım ve atıflar" bölümünde listelenen paketlere de atıf yapılması rica olunur.
 
 </details>
 
