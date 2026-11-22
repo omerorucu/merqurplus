@@ -143,8 +143,8 @@ APA 7. baskı formatında aşağıdaki atfı yapmakla yükümlüdür:
 > yazılımı]. https://doi.org/10.53463/merqur.2026001
 
 X.Y.Z yerine analizde kullanılan MerQuR+ sürümü, A.B.C yerine bu
-sürümün dayandığı MerQur temel sürümü yazılır (örnek: Sürüm 3.8.0; temel
-sürüm 2.7.0). Yardım → Hakkında penceresinde çalışan sürüm için hazır atıf
+sürümün dayandığı MerQur temel sürümü yazılır (örnek: Sürüm 3.9.0; temel
+sürüm 2.9.0). Yardım → Hakkında penceresinde çalışan sürüm için hazır atıf
 metni gösterilir.
 
 BibTeX karşılığı:
