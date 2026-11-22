@@ -1,5 +1,34 @@
 # MerQuR+: Changelog
 
+## 3.9.0 (2026-11-22)
+
+> "Societies that wish to live in comfort without working, without tiring and without producing are doomed to lose first their dignity, then their freedom, and then their independence and their future."
+> — Mustafa Kemal Atatürk
+
+MerQuR+ is an analysis environment that works with a license key, built on the MerQur 2.9.0 base. This release moves the base from 2.7.0 to 2.9.0; the number of templates becomes 226. **Results of the templates of the previous version do not change.**
+
+#### Base version
+- MerQur 2.9.0: 15 new analyses in finance and economics (causality, additional unit root tests, cointegration with breaks, forecast comparison, spillover and GFEVD, additional panel tests, regression with robust standard errors, Oaxaca-Blinder, trend and cycle filters, inequality and poverty, event study, Fama-MacBeth, portfolio optimization, investment performance, value at risk and expected shortfall).
+- MerQur 2.9.0: 10 new analyses in clinical and epidemiological reporting (Table 1, trend in proportions, additive interaction, attributable fraction, landmark survival, RMST difference, Peto meta-analysis, cumulative meta-analysis, calibration and decision curve, minimization); 170 analyses in 21 categories.
+- MacKinnon (1996) option for the Maddala-Wu (Fisher-ADF) p-value in additional panel tests (default MacKinnon 1994). The coefficients are used with the author's written permission.
+- Confidence level selection, background calculations and the progress window are used in the new analyses.
+
+#### New templates
+- **Conditional extreme value VaR/ES** (`risk_var_es`): GARCH and GARCH-POT based value at risk and expected shortfall, Kupiec, Christoffersen and Basel backtests, McNeil-Frey and Acerbi-Szekely ES tests.
+- **Fuzzy linear and nonlinear regression** (`bulanik_regresyon`): Tanaka, Diamond, FLAD and Kim-Bishu methods side by side.
+- **Threshold regression and multivariate threshold VAR** (`esik_regresyon_tvar`): Hansen (2000) and Tsay (1998).
+- **Additional panel tests** (`panel_ek_testler`): fifteen tests, each with a check box.
+- **Unit root family** (`birim_kok_ailesi`): Phillips-Perron, KPSS bands, Fourier ADF and Fourier KPSS.
+- **Cointegration** (`esbutunlesme_kirilmali`): Engle-Granger, Johansen, VECM impulse response and variance decomposition.
+- **Fourier Toda-Yamamoto causality** (`nedensellik_ailesi`).
+- **226 templates** (196 R, 30 Python), 25 categories (new: Finance), 3,340 adjustable parameters.
+
+#### Definition decisions
+Where sources differ on a definition, the default is the definition in the relevant paper or textbook; where the source does not decide, the choice is left to the user and stated in the template description. Details are in `CHANGELOG-3.9.0-ayrinti.md` (Turkish).
+
+#### Fix
+- The description of the Zivot-Andrews trimming fraction was rewritten to match the definition; the calculation did not change.
+
 ## 3.8.0 (2026-11-20)
 
 > "Societies that wish to live in comfort without working, without tiring and without producing are doomed to lose first their dignity, then their freedom, and then their independence and their future."
